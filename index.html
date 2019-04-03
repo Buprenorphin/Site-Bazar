@@ -14,142 +14,177 @@
     <title>Bazar</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-light ">
-      <div class="container">
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-
-        <div class="dropdown">
-       <button class=" dropdown-toggle" data-toggle="dropdown">USD<span class="caret"></span></button>
-        <ul class="dropdown-menu">
-        </ul>
-        </div>
-
-          <ul class="navbar-nav navbar-right">
-          <li class="nav-item active">
-            <a href="#" class="nav-link"><i  aria-hidden="true"></i>|</a>
-          </li>
-        </ul>
-
-        <div class="dropdown">
-       <button class=" dropdown-toggle" data-toggle="dropdown"> English<span class="caret"></span></button>
-        <ul class="dropdown-menu">
-        </ul>
-        </div>
-
-        <ul class="navbar-nav navbar-right">
-          <li class="nav-item active">
-            <a href="#" class="nav-link"><i  aria-hidden="true"></i>|</a>
-          </li>
-        </ul>
-
-        <div class="dropdown">
-       <button class=" dropdown-toggle" data-toggle="dropdown">Helo <span class="caret"></span></button>
-        <ul class="dropdown-menu">
-        </ul>
-        </div>
-
-
-     </div>
-        <ul class="navbar-nav navbar-right">
-          <li class="nav-item active">
-            <a href="#" class="nav-link"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
-          </li>
-
-          <li class="nav-item active">
-            <a href="#"class="nav-link"><i class="fa fa-lock" aria-hidden="true"></i> Register</a>
-          </li>
-          
-        </ul>
-
-        <button class="burgermenu">
-          <i class="fa fa-bars " aria-hidden="true"></i>
-        </button>
-        
-      </div>
-      </div>
-    </nav>
+    
     <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-            <div class="TextMobile"> 
-              <span><i class="fa fa-mobile mobile" aria-hidden="true"></i>
-             230 - 3560 - 222</span>
+      <!--T O P__R I G H T-->
+    <div class="container">      <div class="row align-items-center" id="Top">
+          <div class="col-lg-6 ">
+            <button class="dropdown-toggle DropdownLeft" data-toggle="dropdown">USD</button>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">item 1</a>
+              <a href="#" class="dropdown-item">item 2</a>
+              <a href="#" class="dropdown-item">item 3</a>
             </div>
-        </div>
-        <div class="col-md-4">
-          <div class="LogoBazar">
-            <img src="Image/Bazar.png">
+
+            <button class=" DropdownLeft">|</button>
+
+            <button class="dropdown-toggle DropdownLeft" data-toggle="dropdown">English</button>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">item 1</a>
+              <a href="#" class="dropdown-item">item 2</a>
+              <a href="#" class="dropdown-item">item 3</a>
+            </div>
+
+            <button class=" DropdownLeft">|</button> 
+
+            <button class="dropdown-toggle DropdownLeft" data-toggle="dropdown">Help</button>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">item 1</a>
+              <a href="#" class="dropdown-item">item 2</a>
+              <a href="#" class="dropdown-item">item 3</a>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <button class="ButtonMyChart">
-            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-            <div class="NumberOfPurchases">
-              <p>0</p>
+      <!--T O P__L E F T-->
+          <div class="col-lg-6 ">
+            <button class="Bars float-right"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <button class="Register float-right"><i class="fa fa-lock" aria-hidden="true"></i> Register</button>
+            <button class="Login float-right"><i class="fa fa-user" aria-hidden="true"></i> Login</button>
           </div>
-          </button>
-          
-        </div>
       </div>
-  </div>
-    </header>
-    <menu>
-      <div class="container">
-      <div class="row">
-        <div class="col-md-6 DivLeft">
-          
-          <div class="ImageSearchList">
-            <button class=" dropdown-toggle buttonone" data-toggle="dropdown"><i class="fa fa-list-ul Search" aria-hidden="true"> </i> Select a category <span class="caret" "></span></button>
+
+      <!--M I D D L E-->
+
+      <div class="row align-items-center" id="Middle">
+        <div class="col-lg-4 col-sm-4 " id="Phone">
+          <span class="MobileNumber"><i class="Mobile fa fa-mobile " aria-hidden="true"></i> 2300 - 3560 - 222</span>
+        </div>
+
+          <div class="col-lg-4 col-sm-4">  
+            <div class="Logo mx-auto d-block">
+                <img src="image/Logo.png"></img>
+            </div>
           </div>
 
-            <div class="input-group mb-3">
-              <input  type="text" placeholder="Search product..." aria-label="Recipient's username" aria-describedby="button-addon2">
-              <div class="input-group-append">
-                <button  type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <div class="col-lg-4 col-sm-4" id="MyChart">
+              <div class="float-right Chart">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                <div class="ChartNumder">
+                  <p class="Number"> 0</p>
+                </div>
               </div>
+          </div>
+      </div>
+    </div>
+    </header>
+      <!--M E N U-->
+      <div class="container">
+        <div class="row align-items-center menu">
+
+          <div class="col-xl-6 col-lg-12 MenuLeft">
+            <button class="dropdown-toggle SelectACategory" data-toggle="dropdown"><i class="fa fa-list-ul" aria-hidden="true"></i> Select a category</button>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">item 1</a>
+              <a href="#" class="dropdown-item">item 2</a>
+              <a href="#" class="dropdown-item">item 3</a>
             </div>
 
+            <form class="form-search" method="get" id="s" action="/">
+              <div class="input-append">
+                  <input type="text" class="input-medium search-query" name="s" placeholder="Search products..." value="">
+              </div>
+            </form>
+            
+          </div>
 
+        
+        
           
-        </div>
-        <div class="col-md-6 ">
-          <div class="DivRight">
-
-            <div class="ButtonMenu">
+          <div class="col-xl-6 col-lg-12 MenuRight">
+            <div class="ItemMenu">
               HOME
             </div>
 
-            <div class="ButtonMenu">
-              FURNITURE
-            </div>
+            <div class="ItemMenu">
+                FURNITURE
+              </div>
 
-            <div class="ButtonMenu">
-              CHAIR
-            </div>
+              <div class="ItemMenu">
+                  CHAIR
+                </div>
 
-            <div class="ButtonMenu">
-              TABLE
-            </div>
+                <div class="ItemMenu">
+                    TABLE
+                  </div>
 
-            <div class="ButtonMenu">
-              SOFA
-            </div>
+                  <div class="ItemMenu">
+                      SOFA 
+                    </div>
 
-            <div class="ButtonMenu">
-              BEDROOM
-            </div>
+                    <div class="ItemMenu">
+                        BADROOM 
+                      </div>
 
-            <div class="ButtonMenu">
-              BLOG
-            </div>
-
+                      <div class="ItemMenu">
+                          BLOG
+                        </div>
+              
           </div>
         </div>
       </div>
-      </div>
-    </menu>
-  </div>
+          <!--F O O T E R-->
+          <footer>
+              
+            <div class="container"> 
+
+                <div class="row align-items-center" id="FooterTop">
+                    <div class="FooterTopText">
+                      <h4>INFORMATION</h3>
+                      <span>about us</span><br>
+                      <span>Privacy</span><br>
+                      <span>Conditions</span><br>
+                      <span>Online support</span><br>
+                    </div>
+
+                    <div class="FooterTopText">
+                        <h4>MY ACCOUNT</h3>
+                          <span>Login</span><br>
+                          <span>My Cart</span><br>
+                          <span>Wishlist</span><br>
+                          <span>Checkout</span><br>
+                    </div>
+
+                    <div class="FooterTopText">
+                        <h4>INFORMATION</h3>
+                          <span>Specials</span><br>
+                          <span>New Products</span><br>
+                          <span>Best Sellers</span><br>
+                          <span>Our Stores</span><br>
+                    </div>
+
+                    <div class="FooterTopText">
+                        <h4>ORDERS</h3>
+                          <span>Payment options</span><br>
+                          <span>Shopping and delivery</span><br>
+                          <span>Returns</span><br>
+                          <span>Shipping</span><br>
+                          
+                          <div class="Card">
+                    
+                            </div>
+                    </div>
+
+                    
+                </div>
+              
+              <div class="row align-items-center" id="FooterMiddle">
+                  © Copyright 2016 Bazar | All Rights Reserved
+              </div>
+
+            </div>
+            
+          </footer>
+          
+          
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -158,3 +193,4 @@
 
 </body>
 </html>
+
