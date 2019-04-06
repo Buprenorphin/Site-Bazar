@@ -151,28 +151,36 @@ header span{
 
 /*--------------------F O O T E R--------------------*/
 footer{
-	
-}
 
+}
 
 #FooterMiddle{
 	background-color: #2a2a2a;
-	height: 80px;
-	color: #909090;
+	height: 85px;
 	
+}
+
+.FooterLeft{
+	text-align: right;
+	color: #909090;
+}
+
+.FooterRight{
+	text-align: right;
+	color: #909090;
+
 }
 
 #FooterTop{
 	height: 335px;
 	background-color: #363636;
-}
+	display: flex;
 
-.FooterTopText {
-	margin: 0 auto;
 }
 
 .FooterTopText h4{
 	Color:white;
+	
 }
 
 .FooterTopText span{
@@ -208,5 +216,12 @@ and (max-width: 1224px) {
 and (max-width: 1224px) {
 	.MenuRight{
 		display: none;
+	}
+}
+
+@media only screen
+and (max-width: 1224px) {
+	#FooterTop{
+		height: 1000px;
 	}
 }
