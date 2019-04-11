@@ -1,4 +1,4 @@
-/*H E A D E R*/
+/*---------------H E A D E R---------------*/
 .BackgroundColorHeaderTop{
     background-color: #434343;
     height: 100%;
@@ -80,7 +80,7 @@ header p{
     text-align: center;
 }
 
-/*M E N U*/
+/*---------------M E N U---------------*/
 .ContainerMenu{
     width: 100%;
     display: flex;
@@ -106,7 +106,7 @@ header p{
     padding-top:25px;
 }
 
-/*F O U R__O P T I O N*/
+/*---------------F O U R__O P T I O N---------------*/
 
 .Hoven{
     margin-top:40px;
@@ -159,7 +159,7 @@ header p{
     color:white;
 }
 
-/*A D*/
+/*---------------A D---------------*/
 .Ad{
     margin-top:25px;
 }
@@ -192,4 +192,70 @@ header p{
     height: 80px;
     width: 160px;
     border:6px solid;
+}
+
+/*---------------F O O T E R---------------*/
+.BackgroundFooterTop{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #363636;
+}
+
+.BackgroudFooterBottom{
+    background-color: #2a2a2a;
+}
+
+#FooterBottom{
+	background-color: #2a2a2a;
+	height: 85px;
+	
+}
+
+.FooterLeft{
+	text-align: right;
+	color: #909090;
+}
+
+.FooterRight{
+	text-align: right;
+	color: #909090;
+
+}
+
+.FooterRight i{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.FooterRight i:hover{
+    color: #d58e32;
+}
+
+#FooterTop{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    height: 100%;
+	background-color: #363636;
+	display: flex;
+
+}
+
+.FooterTopText h4{
+	Color:white;
+	
+}
+
+.FooterTopText span{
+	Color:#909090;
+}
+
+.Card{
+	position: absolute;
+	width: 240px;
+	height: 35px;
+	background-image: url(image/Card.png);
+	margin-top:20px;
+	background-size: 200px 25px;
+	background-repeat: no-repeat;
+
 }
