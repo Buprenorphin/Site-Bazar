@@ -1,227 +1,188 @@
-body{
-
-}
-/*--------------------H E A D E R--------------------*/
-
-
-#Top{
-	background-color: #434343;
-	height:55px;
-}
-.DropdownLeft{
-	background-color: #434343;
-	border: none;
-	color: white;
+/*H E A D E R*/
+.BackgroundColorHeaderTop{
+    background-color: #434343;
+    height: 100%;
+    width: 100%;
 }
 
-.Login{
-	background-color: #434343;
-	border: none;
-	color: white;
-	padding-right: 30px;
+.BackgroundColorHeaderBotton{
+    background-color: #363636;
+    width: 100%;
+    height: 100%;
 }
 
-.Register{
-	background-color: #434343;
-	border: none;
-	color: white;
-	padding-right: 30px;
+header p{
+    color: white;
+    padding-right: 20px;
 }
 
-.Bars{
-	background-color: #434343;
-	border: none;
-	color: white;	
+.ButtonLeftStyle{
+    margin-top:8px;
+    background-color: #434343;
+    border: none;
+    border-color:white;
+    color: white;
 }
 
-#Middle{
-	background-color: #363636;
-	height:145px;
+.ButtonLeftStyleBorder{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: white;
 }
 
-.Mobile{
-	font-size: 30px;
-	color:#ca8832;
-	margin-left:7px;
+.ButtonRightStyle{
+    margin-top:8px;
 }
 
-header span{
-	font-size: 20px;
-	color: white;
+.mobile{
+    padding-top:15px;
+    color: #d58e32;
 }
 
 .Logo{
-	width: 165px;
-	height: 100%;
-
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-image:url(image/Logo.png);
+    width: 165px;
+    height: 77px;
 }
 
-.Chart{
-	width: 50px;
-	height: 50px;
-	background-color: #ca8832;
-	border-radius: 5px;
-	margin-right: 10px;
+.MyChart{
+    width: 50px;
+    height: 50px;
+    background-color: #d58e32;
+    border-radius: 5px;
+    position: relative;
 }
 
-.Chart i{
-	color: white;
-	position: absolute;
-	font-size: 20px;
-	margin:5px;
-	padding: 9px;
-	
+.MyChart::after{
+    content: "0";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #444;
+    top:0;
+    left:0;
+    right:-55px;
+    bottom: 0;
+    margin:auto;
+    color: #fff;
+    text-align: center;
 }
 
-.ChartNumder{
-	background-color:#363636;
-	width: 25px;
-	height: 25px;
-	position: absolute;
-	margin-left: 40px;
-	margin-top: 10px;
-	border-radius: 50%;
-	color: white;
+.Basket{
+    margin: 15px;
+    font-size:18px;
 }
 
-.Number{
-	text-align: center;
+.MeChartZero p{
+    text-align: center;
 }
 
-/*--------------------M E N U--------------------*/
-.menu{
-	margin: 0px;
-	padding: 0px;
-	background-color: white;
-	height: 85px;
-	box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.75);
-}
-
-.MenuLeft{
-	display: flex;
-}
-
-.MenuLeft input{
-	height: 45px;
-	width: 265px;
-	border: 1px solid;
-	border-left:none;
-	padding-left: 20px;
-	background-image: url(image/search.png);
-	background-repeat: no-repeat;
-	background-position: 230px 10px;
-	background-size: 20px 20px;
-	transition: 0.4s;
-}
-
-.MenuLeft input:focus{
-	padding-left: 50px;
-	background-position: 15px 10px;
-}
-
-.MenuLeft i{
-	color: #ca8832;	
+/*M E N U*/
+.ContainerMenu{
+    width: 100%;
+    display: flex;
 }
 
 .MenuRight{
-	display: flex;
+    text-align: center;
+}   
+
+.MenuItem{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:25px;
+    height: 85px;
 }
 
-.SelectACategory{
-	border: 1px solid;
-	background-color: white;
-	height: 45px;
-	width: 200px;
-	margin-left:5px; ;
+.MenuItem:hover{
+    color: white;
+    box-shadow: inset 0px 5px 0px 0px rgba(0,0,0,0.75);
+    background-color: #d58e32;
+    height: 85px;
+    padding-top:25px;
 }
 
-.ItemMenu{
-	width: 100%;
-	height: 85px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 28px;
+/*F O U R__O P T I O N*/
+
+.Hoven{
+    width: 100%;
+    height: 120px;
+    border:1px solid;
+    margin-right: 20px;
 }
 
-.ItemMenu:hover{
-	background-color: #d58e32;
-	box-shadow: inset 0px 5px 0px 0px #2a2a2a;
-	color: white;
+.Hoven p{
+    text-align: center;
 }
 
-/*--------------------F O O T E R--------------------*/
-footer{
-
+.Hoven h4{
+    text-align: center;
+    padding-top:18%;
 }
 
-#FooterMiddle{
-	background-color: #2a2a2a;
-	height: 85px;
-	
+.HivenImage{
+    padding-top:7px;
+    border-radius: 50%;
+    margin-left:32%;
+    width: 75px;
+    height: 75px;
+    border: 1px solid;
+    position: absolute;
 }
 
-.FooterLeft{
-	text-align: right;
-	color: #909090;
+.HivenImageTwo{
+    width: 60px;
+    height: 60px;
+    border:1px solid;
+    margin:0 auto;
+    border-radius: 50%;
 }
 
-.FooterRight{
-	text-align: right;
-	color: #909090;
-
+.HivenImageTwo i{
+    font-size: 22px;
+    margin: 17px;
 }
 
-#FooterTop{
-	height: 335px;
-	background-color: #363636;
-	display: flex;
-
+.HivenImageTwo:hover{
+    background-color: #d58e32;
+    color:white;
 }
 
-.FooterTopText h4{
-	Color:white;
-	
+/*A D*/
+.Ad{
+    margin-top:25px;
 }
 
-.FooterTopText span{
-	Color:#909090;
+.AdOne{
+    width: 100%;
+    height: 420px;
+    background-color: #6a6a6a; 
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px; 
 }
 
-.Card{
-	position: absolute;
-	width: 240px;
-	height: 35px;
-	background-image: url(image/Card.png);
-	margin-top:20px;
-	background-size: 200px 25px;
-	background-repeat: no-repeat;
-
-}
-/*--------------------M E D I A--------------------*/
-@media only screen
-and (max-width: 1224px) {
-	.menu{
-		height: 140px;
-	}
+.AdOneBackgroundGreen{
+    width: 100%;
+    height: 100%;
+    background-color: #505050;
+    padding-top:150px;
+    padding-left: 20px;
+    
 }
 
-@media only screen
-and (max-width: 1224px) {
-	#Middle{
-		height: 200px;
-	}
+.AdOneBackgroundText{
+    color: white;
+    
 }
 
-@media only screen
-and (max-width: 1224px) {
-	.MenuRight{
-		display: none;
-	}
-}
-
-@media only screen
-and (max-width: 1224px) {
-	#FooterTop{
-		height: 1000px;
-	}
+.AdOneBackgroundNumber{
+    height: 80px;
+    width: 160px;
+    border:6px solid;
 }
