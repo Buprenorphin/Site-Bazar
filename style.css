@@ -81,6 +81,13 @@ header p{
     text-align: center;
 }
 
+.BurgerMenu i {
+    color:white;
+}
+
+.BurgerMenu a {
+    color:white !important;
+}
 /*---------------M E N U---------------*/
 .ContainerMenu{
     width: 100%;
