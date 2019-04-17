@@ -305,5 +305,45 @@ header p{
 	margin-top:20px;
 	background-size: 200px 25px;
 	background-repeat: no-repeat;
+}
 
+/*Q U O T E*/
+
+.QuoteAll{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.QuoteAll p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.QuoteText{
+    text-align: center;
+}
+
+.Author{
+    display: flex;
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+}
+
+.AuthorImage{
+    width: 45px;
+    height: 40px;
+    background-color: #676767;
+    border-radius: 5px;
+}
+
+.AuthorImageText{
+    padding-left: 10px;
+}
+
+.AuthorImageText p{
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
 }
