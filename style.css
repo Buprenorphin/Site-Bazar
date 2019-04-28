@@ -90,9 +90,45 @@ header p{
     color:white !important;
 }
 /*---------------M E N U---------------*/
+
+.CategoryAndSearch{
+    margin-top: 20px;
+    width: 85%;
+    height: 45px;
+    border:1px solid;
+    display: flex;
+}
+
+.CategoryAndSearch i{
+    color: #d58e32;
+}
+
+.ButtonLeftCategory{
+    background-color: white;
+    border: 0px;
+    height: 43px;
+    margin-left: 10px;
+    border-right: 1px solid;
+}
+
+.SearchStyle{
+    margin-left: 15px;
+    border: none;
+    width: 100%;
+    height: 43px;
+}
+
+.SearchImage{
+    
+}
+
 .ContainerMenu{
     width: 100%;
     display: flex;
+}
+
+.BackgroundColorMenu{
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
 }
 
 .MenuRight{
@@ -113,16 +149,19 @@ header p{
     background-color: #d58e32;
     height: 85px;
     padding-top:25px;
+    cursor: pointer;
 }
 
 /*---------------F O U R__O P T I O N---------------*/
+.HovenContainer{
+    margin-top:30px;
+}
 
 .Hoven{
     margin-top:40px;
     width: 100%;
     height: 120px;
-    border:1px solid;
-    
+    border: 1px solid;
 }
 
 .Hoven p{
@@ -166,11 +205,12 @@ header p{
 .HivenImageTwo:hover{
     background-color: #d58e32;
     color:white;
+    cursor: pointer;
 }
 
 /*---------------A D---------------*/
 .Ad{
-    margin-top:25px;
+    padding-top:30px;
 }
 
 .AdOne{
@@ -328,7 +368,7 @@ header p{
 }
 
 .BlogBackgroundColorGreen{
-    white:100%;
+    width: 100%;
     height:290px;
     background-color: #969696;
 }
@@ -361,8 +401,9 @@ header p{
     padding-top: 25px;
 }
 
-.BlogText h5:hover{
+.BlogText h6:hover{
    color: #d58e32;
+   cursor: pointer;
 }
 
 .BlogButton{
