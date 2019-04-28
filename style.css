@@ -107,20 +107,32 @@ header p{
     background-color: white;
     border: 0px;
     height: 43px;
-    margin-left: 10px;
+    padding-left: 10px;
     border-right: 1px solid;
 }
 
-.SearchStyle{
-    margin-left: 15px;
-    border: none;
+.Search{
     width: 100%;
+    height: 100%;
+}
+
+.SearchStyle{
+    padding-left: 10px;
+    border: none;
     height: 43px;
+    width: 100%;
 }
 
 .SearchImage{
-    
+    padding-top: 8px;
+    width: 40px;
+    height: 100%;
 }
+
+.SearchImage i{
+    color: #2a2a2a;
+}
+
 
 .ContainerMenu{
     width: 100%;
