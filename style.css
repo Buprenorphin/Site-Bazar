@@ -264,6 +264,15 @@ header p{
   
 }
 
+.ProductNameAndAmountCopyStarOrangeLine{
+    margin-left: 135px;
+    margin-top:-1px;
+    width: 30px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+}
+
 .ProductNameAndAmountCopyPriceIcon{
     margin: 0 auto;
     width: 300px;
@@ -276,9 +285,6 @@ header p{
     width: 35px;
     height: 35px;
     border:1px solid;
-}
-
-.Icon{
     padding: 5px;
     padding-left: 8px;
 }
@@ -290,6 +296,7 @@ header p{
 }
 
 .PriceOne{
+    padding-top: 8px;
     padding-right: 5px;
     color: #bdbdbd;
 }
@@ -527,6 +534,7 @@ header p{
 .FooterRight i:hover{
     color: #d58e32;
     transition: 0.45s;
+    cursor: pointer;
 }
 
 #FooterTop{
@@ -630,6 +638,7 @@ header p{
 
 .BlogButton button:hover{
     background-color: #d58e32;
+    cursor: pointer;
     transition: 0.45s;
 }
 /*Q U O T E*/
@@ -671,4 +680,64 @@ header p{
     font-size: 13px;
     padding: 0px;
     margin: 0px;
+}
+
+/*LineSpacing*/
+
+.LineSpacing{
+    margin-top: 30px;
+    border-bottom:2px solid;
+    border-color: #cccccc;
+    display: flex;
+}
+
+.LineSpacingOrange{
+    margin-top: -2px;
+    width: 40px;
+    height: 2px;
+    background-color: #d58e32;
+}
+
+.LineSpacing h6{
+    color: #d58e32;
+}
+
+.LineSpacingOrangeItem p{
+    padding-left: 20px;
+    margin-top: 50px; 
+    font-size: 10px;
+}
+
+.LineSpacingOrangeItem i{
+    padding-right: 2px;
+    color: #cccccc;
+}
+
+.LineSpacingOrangeItem p :hover{
+    color: #d58e32;
+}
+
+.LineSpacingNewFurnitureMenu{
+    position: absolute;
+    margin-left: 36%;
+    display: flex;
+    height: 100%;
+}
+
+.LineSpacingNewFurnitureMenuItem{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.LineSpacingNewFurnitureMenuItem h6{
+    color: #2a2a2a;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.LineSpacingNewFurnitureMenuItem :hover{
+    cursor: pointer;
+    padding-bottom: 8px;
+    border-bottom: 2px solid;
+    border-color: #d58e32;
 }
