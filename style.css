@@ -499,6 +499,10 @@ header p{
     height: 100%;
 }
 /*---------------N E V - P R O D U C T S---------------*/
+.New-products-margin-one{
+    margin-top: 20px;
+}
+
 .New-products-one{
     width: 100%;
     height: 400px;
@@ -600,8 +604,188 @@ header p{
     color: white;
 }
 
-.New-products-two{
+.New-products-margin-two{
     margin-top: 30px;
+}
+/*Furniture-gallery*/
+.Furniture-gallery{
+    margin-top: 30px;
+}
+
+.Furniture-gallery-left-container{
+    margin-top: 30px;
+    width: 100%;
+    height: 410px;
+    border: 1px solid;
+    border-color: #cccccc;
+}
+
+.Furniture-gallery-right-container{
+    width: 100%;
+    height: 600px;
+    background-color: #e8edf7;
+}
+
+.Furniture-gallery-text{
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid;
+    border-color:#cccccc;
+}
+
+.Furniture-gallery-text h6{
+    color: #d58e32;
+
+}
+
+.Furniture-gallery-text-line-orange{
+    margin-top: 1px;
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: #d58e32;
+}
+
+.Furniture-gallery-left-container-icon{
+    margin-top: 20%;
+    margin-left: 10px;
+    height: 35px;
+}
+
+.Furniture-gallery-left-container-icon-all:hover{
+    color: #d58e32;
+    border-color: #d58e32;
+    cursor: pointer;
+}
+
+.Furniture-gallery-left-container-aenean{
+    margin-top: 80px;
+    width: 250px;
+    height: 110px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.100);
+    margin-left: 289px;
+    text-align: center;
+}
+
+.Furniture-gallery-left-container-aenean-triangle-top{
+    width: 10px;
+    height: 10px;
+    border: 10px solid transparent;	
+    border-left: 10px solid black; 
+    border-top: 10px solid black;
+}
+
+.Furniture-gallery-left-container-aenean-triangle-bottom{
+    width: 10px;
+    height: 10px;
+    border: 10px solid transparent;	
+    border-right: 10px solid black; 
+    border-bottom: 10px solid black;
+    margin-top: 20px;
+    margin-left:230px;
+
+}
+
+.Furniture-gallery-left-container-aenean-price{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background-color: #2a2a2a;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 13%;
+    opacity: .5;
+    color: white;
+}
+
+.Furniture-gallery-left-container-aenean-price{
+    padding-top: 5px;
+}
+
+.Furniture-gallery-left-container-icon-all{
+    padding-top: 5px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    margin-top: 5px;
+}
+
+.Furniture-gallery-right-container-text{
+    width: 350px;
+    height: 250px;
+    padding-left: 65px;
+    padding-top: 65px;
+
+}
+
+.Furniture-gallery-right-container-text h1{
+   color: #d58e32;
+   font-weight: bold;
+}
+
+.Furniture-gallery-right-container-text-top{
+    display: flex;
+}
+
+.Furniture-gallery-right-container-text-top p{
+    margin-top: 20px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.Furniture-gallery-right-container-text-button{
+    width: 135px;
+    height: 55px;
+    background-color: #85AC46;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.Furniture-gallery-right-container-text-button p{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+.Furniture-gallery-right-container-text-top h1{
+    color: #85AC46;
+}
+
+.Furniture-gallery-left-backgroundmenu{
+    width: 100%;
+    height: 540px;
+}
+
+.Furniture-gallery-left-menu{
+    width: 100%;
+    height: 45px;
+}
+
+.nav-tabs a{
+    color:#2a2a2a ;
+}
+
+.nav-tabs .nav-item{
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link:hover{
+    border-radius: 0rem;
+    border-top: 3px solid;
+    border-top-color: #d58e32;
+    border-bottom:none;
+    color: #d58e32;
+}
+
+
+.nav-tabs .nav-link{
+    border-radius: 0rem;
+    border-color: #cccccc;
+    
 }
 /*---------------F O O T E R---------------*/
 
