@@ -315,6 +315,7 @@ and (max-device-width: 480px) {
     width: 90px;
     height: 35px;
     background-color: #3e3e3e; 
+    color: white;
 }
 
 .Slider{
@@ -700,7 +701,7 @@ and (max-device-width: 480px) {
 .Furniture-gallery-left-container{
     margin-top: 30px;
     width: 100%;
-    height: 410px;
+    height: 449px;
     border: 1px solid;
     border-color: #cccccc;
 }
@@ -774,7 +775,7 @@ and (max-device-width: 480px) {
 
 .Furniture-gallery-left-container-aenean{
     position: absolute;
-    margin-top: 80px;
+    margin-top: 100px;
     width: 250px;
     height: 110px;
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.100);
@@ -909,6 +910,47 @@ and (max-device-width: 480px) {
     height: 80px;
     background-color: #2a2a2a;
     
+}
+
+.Furniture-gallery-left-slider-bottom-left{
+    width: 30px;
+    height: 70px;
+    background-color: #2a2a2a;
+    color: white;
+    text-align: center;
+    padding-top:23px;
+}
+
+.Furniture-gallery-left-slider-bottom-left:hover{
+    color: #d58e32;
+    cursor:pointer;
+    transition: 0.45s;
+
+}
+
+.Furniture-gallery-left-slider-image{
+    width: 70px;
+    height: 70px;
+    background-color: #909090;
+    margin-left: 4px;
+    margin-right:4px
+}
+
+.Furniture-gallery-left-slider-bottom-right{
+    width: 30px;
+    height: 70px;
+    background-color: #2a2a2a;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+    padding-top:23px;
+}
+
+.Furniture-gallery-left-slider-bottom-right:hover{
+    color: #d58e32;
+    cursor:pointer;
+    transition: 0.45s;
+
 }
 
 @media only screen
@@ -1068,6 +1110,66 @@ and (max-device-width: 480px) {
     cursor: pointer;
     transition: 0.45s;
 }
+
+/*Slider-logo-brand*/
+.Slider-logo-brand{
+    margin-top: 30px;
+    width: 100%;
+    height: 140px;
+    border-top:1px solid;
+    border-bottom: 1px solid;
+    border-color: #cccccc;
+    display: flex;
+    padding: 0px;
+
+}
+
+.Slider-logo-brand-bottom-left{
+    margin-right: 15px;
+    width: 30px;
+    height: 90px;
+    background-color: #2a2a2a;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.Slider-logo-brand-bottom-left:hover{
+    color: #d58e32;
+    transition: 0.45s;
+    cursor: pointer;
+    
+}
+
+.Slider-logo-brand-bottom-right{
+    margin-left: 15px;
+    width: 30px;
+    height: 90px;
+    background-color: #2a2a2a;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.Slider-logo-brand-bottom-right:hover{
+    color: #d58e32;
+    transition: 0.45s;
+    cursor: pointer;
+    
+}
+
+.Slider-logo-brand-all{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    border:1px solid;
+    border-color: #cccccc;
+    width: 140px;
+    height: 90px;
+}
+
 /*Q U O T E*/
 
 .QuoteAll{
@@ -1112,7 +1214,7 @@ and (max-device-width: 480px) {
 /*LineSpacing*/
 
 .LineSpacing{
-    margin-top: 30px;
+    margin-top: 40px;
     border-bottom:2px solid;
     border-color: #cccccc;
     display: flex;
@@ -1169,4 +1271,16 @@ and (max-device-width: 480px) {
     border-color: #d58e32;
 }
 
+.Furniture-gallery-left-slider{
+    width: 100%;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #cccccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    
+}
 
