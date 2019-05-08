@@ -173,6 +173,8 @@ and (max-device-width: 480px) {
 	.CategoryAndSearch{
         width: 100%;    
     }
+
+   
 }
 
 /*---------------Home-furniture--------------*/
@@ -203,6 +205,14 @@ and (max-device-width: 480px) {
 .Home-furniture-bg-text-home a{
     color: #dedede;
     text-decoration: none; 
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .Home-furniture-bg{
+
+    }
 }
 /*---------------Shop-products--------------*/
 
@@ -626,6 +636,57 @@ and (max-device-width: 480px) {
     color: white;
 }
 
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+	
+    .Shop-products{
+        width: 100%;
+        height: 1400px;
+        padding: 0px;
+    }
+
+    .Shop-products-image{
+        margin-top:40px;
+    }
+    
+    .Shop-products-image-all{
+        width: 96%;
+        padding-left:340px;
+    }
+
+    .Shop-products-products-details-name-button{
+        margin-left: 66px;
+    }
+
+    .Shop-products-products-details-name{
+        margin-top: -80px;
+    }
+
+   .Shop-products-image-slider{
+       opacity: 0;
+   }
+
+   .Shop-products-products-details-share{
+       flex-direction: column;
+       width: 90%;
+       margin: 0 auto;
+       margin-top: 10px;
+   }
+
+   .Shop-products-products-details-share-all{
+       margin-top: 20px;
+   }
+
+   .Menu-review-all{
+       padding: 0px;
+   }
+
+   .Menu-review-four{
+       border:none;
+   }
+}
 /*---------------Review---------------*/
 
 .Review{
@@ -690,6 +751,7 @@ and (max-device-width: 480px) {
 }
 
 .Review-name-email{
+    padding: 0px;
     padding-top: 20px;
     margin: 0 auto;
     width: 94%;
@@ -700,7 +762,7 @@ and (max-device-width: 480px) {
 .Review-name-email input{
     width: 445px;
     height: 50px;
-    margin-left: 10px;
+    margin-right: 10px;
     padding-left: 10px;
 
 }
@@ -719,6 +781,35 @@ and (max-device-width: 480px) {
     cursor: pointer;
 }
 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+   .Menu-review-all{
+       text-align: center;
+       padding-left: 2px;
+       padding-right: 2px;
+       height: 60px;
+   }
+
+   .Menu-review-four{
+       width: 27.5%;
+       border-right:none;
+   }
+
+   .Review-name-email{
+    flex-direction: column;
+   }
+
+   .Review-name-email input{
+    width: 100%;
+   }
+
+   .Review-name-email-button{
+       width: 100%;
+       margin:0 auto;
+   }
+}
 /*---------------Line-spacing---------------*/
 
 .Line-spacing-all{
@@ -728,8 +819,6 @@ and (max-device-width: 480px) {
     padding: 0px;
     
 }
-
-
 
 .Line-spacing-black{
     background-color: black;
@@ -752,6 +841,19 @@ and (max-device-width: 480px) {
     color: black;
     cursor: pointer;
 
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+   .Line-spacing-all{
+       margin-top: 20px;
+   }
+
+   .Review{
+       height: 610px;
+   }
 }
 
 /*---------------N E V - P R O D U C T S---------------*/
@@ -961,7 +1063,44 @@ and (max-device-width: 480px) {
 }
 
 .News-letter-mail-box-button:hover{
+    background-color: #d58e32;
+    color: white;
     cursor: pointer;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+   .News-letter{
+    flex-direction: column;
+    height: 100%;
+   }
+
+   .News-letter h5{
+       padding: 0px;
+       text-align: center;
+   }
+
+   .News-letter-mail-box-image{
+       margin-top: 160px;
+       margin-left: 20px;
+   }
+
+   .News-letter-mail-box-image{
+        text-align: center;
+    }
+
+   .News-letter-mail-box input{
+       width: 350px;
+       margin-top: 0px;
+   }
+
+   .News-letter-mail-box-button{
+       width: 350px;
+       margin: 0 auto;
+       margin-bottom: 30px;
+   }
 }
 /*---------------F O O T E R---------------*/
 
