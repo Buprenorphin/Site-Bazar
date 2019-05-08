@@ -144,6 +144,8 @@ header p{
 }
 
 .MenuRight{
+    display: flex;
+    justify-content: flex-end;
     text-align: center;
 }   
 
