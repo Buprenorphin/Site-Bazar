@@ -59,7 +59,6 @@ header p{
 .Logo{
     margin-top:20px;
     margin-bottom: 20px;
-    background-image:url(image/Logo.png);
     width: 165px;
     height: 77px;
 }
@@ -1058,8 +1057,10 @@ and (max-device-width: 480px) {
 	
 }
 
-.FooterTopText span{
-	Color:#909090;
+.FooterTopText a{
+    text-decoration-color: #929292;
+    color: #929292;
+    
 }
 
 .Card{
