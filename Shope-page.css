@@ -173,7 +173,7 @@ header p{
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top:25px;
+    padding-top: 30px;
     height: 85px;
 }
 
@@ -182,9 +182,14 @@ header p{
     box-shadow: inset 0px 5px 0px 0px rgba(0,0,0,0.75);
     background-color: #d58e32;
     height: 85px;
-    padding-top:25px;
+    padding-top: 30px;
     cursor: pointer;
     transition: 0.45s;
+}
+
+.MenuItem a{
+    text-decoration: none;
+    color: #2a2a2a;
 }
 
 @media only screen
@@ -194,6 +199,16 @@ and (max-device-width: 480px) {
         width: 100%;    
     }
 
+    .SearchImage{
+        margin-left: 90%;
+    }
+
+    .MenuRight{
+        margin: 0 auto;
+        display: table-column;
+        padding: 0px;
+        padding-left: 15px;
+    }
 }
 
 /*---------------Home-furniture--------------*/
@@ -255,9 +270,75 @@ and (max-device-width: 480px) {
 
 .Shop-products-big-image{
     width: 100%;
-    height: 500px;
-    background-color: #f4f5f7;
 }
+
+.Shop-products-big-img img{
+    height: 520px;
+    width: 100%;
+    outline: none;
+    object-fit: cover;
+}
+
+.Shop-products-slider-image{
+    margin:0 auto;
+    text-align: center;
+    width: 89%;
+    height: 105px;
+}
+
+.product-img-style{
+    height: 105px !important;
+    padding: 0 10px 0 10px;
+    outline: none;
+}
+
+.product-img-style img{
+    outline: none;
+    width: 100%;
+    height: 105px !important;
+    object-fit: cover;
+}
+
+.slick-next{
+    width: 30px !important;
+    height: 30px !important;
+    border:1px solid !important;
+    border-color: black !important;
+}
+
+.slick-next::before{
+    color: #000 !important;
+}
+
+.slick-arrow::before {
+    color: #000 !important;
+}
+
+.slick-arrow:hover::before{
+    color: #fff !important;
+}
+
+
+.slick-arrow{
+    width: 30px !important;
+    height: 30px !important;
+    border:1px solid !important;
+    border-color: black !important;
+    z-index: 1;
+}
+
+.slick-next:hover{
+    border: none !important;
+    background-color: #d58e32 !important;
+    
+}
+
+.slick-arrow:hover{
+    border: none !important;
+    background-color: #d58e32 !important;
+}
+
+
 
 .Shop-products-products-details-all{
     border-bottom: 1px solid;
@@ -436,6 +517,61 @@ and (max-device-width: 480px) {
     color: #0077b5;
 }
 
+.Shop-products-products-details-share-facebook:hover{
+    background-color: #3B5A97;
+    color: white;
+
+}
+
+.Shop-products-products-details-share-facebook:hover i{
+    color: white;
+}
+
+.Shop-products-products-details-share-google:hover{
+    background-color: #D62C1F;
+    color: white;
+}
+
+.Shop-products-products-details-share-google:hover i{
+    color: white;
+}
+
+.Shop-products-products-details-share-tweet:hover{
+    background-color: #4099FF;
+    color: white;
+}
+
+.Shop-products-products-details-share-tweet:hover i{
+    color: white;
+}
+
+.Shop-products-products-details-share-pinterest:hover{
+    background-color: #C92227;
+    color: white;
+}
+
+.Shop-products-products-details-share-pinterest:hover i{
+    color: white;
+}
+
+.Shop-products-products-details-share-linkedin:hover{
+    background-color: #0077B5;
+    color: white;
+}
+
+.Shop-products-products-details-share-linkedin:hover i{
+    color: white;
+}
+
+.Shop-products-products-details-share-icon:hover p{
+    color: white;
+}
+
+.Shop-products-products-details-share-icon:hover{
+    cursor: pointer;
+}
+
+
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
@@ -543,7 +679,10 @@ and (max-device-width: 480px) {
 
 .Review-name-email-button:hover{
     cursor: pointer;
+    background-color: #d58e32;
 }
+
+
 
 @media only screen
 and (min-device-width: 320px)
@@ -570,6 +709,7 @@ and (max-device-width: 480px) {
     .Menu-review-all{
         border-right: none;
     }
+
    
 }
 /*---------------Line-spacing---------------*/
@@ -743,6 +883,12 @@ and (max-device-width: 480px) {
     margin-top: 30px;
 }
 
+.New-products-one-icon:hover{
+    border-color: #d58e32;
+    color: #d58e32;
+    cursor: pointer;
+}
+
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
@@ -850,10 +996,10 @@ and (max-device-width: 480px) {
        margin: 0px;
        margin-bottom: 10px;
    }
+}
 
 /*---------------F O O T E R---------------*/
 .BackgroundFooterTop{
-    margin-top: 30px;
     width: 100%;
     background-color: #363636;
 }

@@ -34,6 +34,22 @@ header p{
     margin-top:8px;
 }
 
+.Header-bottom-left{
+    padding: 0px;
+}
+
+.header-top-dropdown{
+    padding: 0px;
+}
+
+.Header-top-register{
+    padding: 0px;
+}
+
+.Header-bottom-my-chart{
+    padding: 0px;
+}
+
 .mobile{
     font-size: 20px;
     padding-top:15px;
@@ -90,7 +106,9 @@ header p{
     color:white !important;
 }
 /*---------------M E N U---------------*/
-
+.Category-and-search-all{
+    padding: 0px;    
+}
 .CategoryAndSearch{
     margin-top: 20px;
     width: 85%;
@@ -117,6 +135,7 @@ header p{
 }
 
 .SearchStyle{
+    padding-right: 40px;
     padding-left: 10px;
     border: none;
     height: 43px;
@@ -124,9 +143,10 @@ header p{
 }
 
 .SearchImage{
+    position: absolute;
     padding-top: 8px;
-    width: 40px;
-    height: 100%;
+    width: 20px;
+    margin-left: 80%;
 }
 
 .SearchImage i{
@@ -150,9 +170,10 @@ header p{
 }   
 
 .MenuItem{
+    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top:25px;
+    padding-top: 30px;
     height: 85px;
 }
 
@@ -161,9 +182,14 @@ header p{
     box-shadow: inset 0px 5px 0px 0px rgba(0,0,0,0.75);
     background-color: #d58e32;
     height: 85px;
-    padding-top:25px;
+    padding-top: 30px;
     cursor: pointer;
     transition: 0.45s;
+}
+
+.MenuItem a{
+    text-decoration: none;
+    color: #2a2a2a;
 }
 
 @media only screen
@@ -171,6 +197,17 @@ and (min-device-width: 320px)
 and (max-device-width: 480px) {
 	.CategoryAndSearch{
         width: 100%;    
+    }
+
+    .SearchImage{
+        margin-left: 90%;
+    }
+
+    .MenuRight{
+        margin: 0 auto;
+        display: table-column;
+        padding: 0px;
+        padding-left: 15px;
     }
 }
 

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="Shope-page.css">    
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  
+    <script src="Shope-page.js"></script>
     <title>Bazar  </title>
   </head>
   <body>
@@ -138,31 +140,31 @@
           <div class="col-lg-6 col-md-12 MenuRight">
             <div class="ContainerMenu row">
             <div class="MenuItem col">
-              <p>HOME</p>
+              <a href="Home-page.html">HOME</a>
             </div>
 
             <div class="MenuItem col">
-                <p>FURNITURE</p>
+                <a href="Shope-page.html">FURNITURE</a>
               </div>
 
               <div class="MenuItem col">
-                  <p>CHAIR</p>
+                  <a href="#">CHAIR</a>
                 </div>
 
                 <div class="MenuItem col">
-                    <p>TABLE</p>
+                    <a href="#">TABLE</a>
                   </div>
 
                   <div class="MenuItem col">
-                      <p>SOFA</p>
+                      <a href="#">SOFA</a>
                     </div>
 
                     <div class="MenuItem col">
-                        <p>BADROOM</p>
+                        <a href="#">BADROOM</a>
                       </div>
 
                       <div class="MenuItem col">
-                          <p>BLOG</p>
+                          <a href="#">BLOG</a>
                         </div>
 
           </div>
@@ -190,8 +192,24 @@
     <div class="container Shop-products">
         <div class="row">
            <div class="Shop-products-image col-lg-5">
+            
             <div class="Shop-products-big-image">
+                <div class="product-img product-big-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0688530_PE722477_S4.JPG"></div>
+                <div class="product-img product-big-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0552756_PE659072_S4.JPG"></div>
+                <div class="product-img product-big-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0552757_PE659075_S4.JPG"></div>
+                <div class="product-img product-big-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0552759_PE659073_S4.JPG"></div>
+                <div class="product-img product-big-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0552758_PE659074_S4.JPG"></div>
+            </div>
+            
+            
+            <div class="Shop-products-slider-image">
               
+              <div class="product-img product-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0688530_PE722477_S4.JPG"></div>
+              <div class="product-img product-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0552756_PE659072_S4.JPG"></div>
+              <div class="product-img product-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0552757_PE659075_S4.JPG"></div>
+              <div class="product-img product-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0552759_PE659073_S4.JPG"></div>
+              <div class="product-img product-img-style"><img src="https://www.ikea.com/ru/ru/images/products/d-ungel-skog-pododeal-nik-i-navolocka-zeltyj__0552758_PE659074_S4.JPG"></div>
+
             </div>
            </div>
 
@@ -612,6 +630,8 @@
                 </div>
             </div>
         </div>
+
+        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -619,7 +639,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="Shope-page.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+
+      $('.Shop-products-slider-image').slick({
+        slidesToShow: 4,
+        asNavFor: '.Shop-products-big-image',
+        focusOnSelect: true,
+      });
+
+      $('.Shop-products-big-image').slick({
+        arrows: false,
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.Shop-products-slider-image',
+
+      });
+    
+  </script>
   </body>
 </html>
