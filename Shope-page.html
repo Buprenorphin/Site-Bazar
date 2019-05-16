@@ -399,7 +399,8 @@
                     <div class="New-products-one-background-image-sale">
                       <p>sale</p>
                     </div>
-  
+                    
+                    <img src="https://www.ikea.com/ru/ru/images/products/bumerang-vesalka-dla-bruk__0710676_PE727704_S4.JPG">
                     <div class="New-products-one-background-image-hover">
   
                       <div class="New-products-one-background-image-hover-quick">
@@ -444,7 +445,7 @@
               <div class="col-lg-3">
                   <div class="New-products-one">
                       <div class="New-products-one-background-image">
-          
+                        <img src="https://www.ikea.com/ru/ru/images/products/besto-korobka-zeltyj__0626939_PE700201_S4.JPG">
                         </div>
         
                         <div class="New-products-one-text">
@@ -482,6 +483,8 @@
                               <p>sale</p>
                             </div>
                             
+                            <img src="https://www.ikea.com/ru/ru/images/products/bosnes-taburet-dla-nog-s-as-d-hrn-zeltyj__0241135_PE381200_S4.JPG">
+
                           </div>
           
                           <div class="New-products-one-text">
@@ -522,6 +525,8 @@
                               <div class="New-products-one-background-image-sale">
                                 <p>sale</p>
                               </div>
+
+                              <img src="https://www.ikea.com/ru/ru/images/products/slekt-sekcia-divana-otdelenie-d-hranenia__0636229_PE697742_S4.JPG">
                             </div>
             
                             <div class="New-products-one-text">
@@ -563,6 +568,8 @@
                             <p>sale</p>
                           </div>
         
+                          <img src="https://www.ikea.com/ru/ru/images/products/grimsos-podvesnoj-svetil-nik-zeltyj__0652455_PE707542_S4.JPG">
+
                           <div class="New-products-one-background-image-hover">
         
                             <div class="New-products-one-background-image-hover-quick">
@@ -611,6 +618,8 @@
                             <p>sale</p>
                           </div>
         
+                          <img src="https://www.ikea.com/ru/ru/images/products/hektar-podvesnoj-svetil-nik-seryj__0613033_PE686124_S4.JPG">
+
                           <div class="New-products-one-background-image-hover">
         
                             <div class="New-products-one-background-image-hover-quick">
@@ -766,6 +775,28 @@
         slidesToShow: 4,
         asNavFor: '.Shop-products-big-image',
         focusOnSelect: true,
+        responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+        
       });
 
       </script>
@@ -776,6 +807,34 @@
         slidesToShow: 4,
         focusOnSelect: true,
         arrows: false,
+        responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
         
         });
 
