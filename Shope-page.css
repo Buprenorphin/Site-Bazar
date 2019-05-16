@@ -11,6 +11,10 @@
     height: 100%;
 }
 
+.dropdown-usd{
+    padding-left:0px; 
+}
+
 header p{
     color: white;
     padding-right: 20px;
@@ -84,6 +88,7 @@ header p{
     right:-55px;
     bottom: 0;
     margin:auto;
+    padding-top: 3px;
     color: #fff;
     text-align: center;
 }
@@ -170,10 +175,16 @@ header p{
 
 .MenuItem{
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 10.6px;
+    padding-right: 10.6px;
     padding-top: 30px;
     height: 85px;
+}
+
+.Menu-item-furniture{   
+    background-color: #d58e32;
+    color: white;
+    box-shadow: inset 0px 5px 0px 0px rgba(0,0,0,0.75);
 }
 
 .MenuItem:hover{
@@ -186,7 +197,11 @@ header p{
     transition: 0.45s;
 }
 
-.MenuItem a{
+.MenuItem:hover .Menu-item-furniture{
+    opacity: 0 !important;
+}
+
+.MenuRight a{
     text-decoration: none;
     color: #2a2a2a;
 }
@@ -287,7 +302,6 @@ and (max-device-width: 480px) {
 
 .product-img-style{
     height: 105px !important;
-    padding: 0 10px 0 10px;
     outline: none;
 }
 
@@ -329,7 +343,6 @@ and (max-device-width: 480px) {
 .slick-next:hover{
     border: none !important;
     background-color: #d58e32 !important;
-    
 }
 
 .slick-arrow:hover{
@@ -439,12 +452,6 @@ and (max-device-width: 480px) {
 }
 
 .Shop-products-products-details-button-icon-quantity-plus-minus:hover{
-    border-color: #d58e32;
-    color: #d58e32;
-    cursor: pointer;
-}
-
-.Shop-products-products-details-button-icon-quantity-all:hover{
     border-color: #d58e32;
     color: #d58e32;
     cursor: pointer;

@@ -8,8 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="Home-page.css">    
-    <title>Bazar  </title>
+    <link rel="stylesheet" href="Home-page.css"> 
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+     
+    <title>Bazar</title>
   </head>
   <body>
     <header>
@@ -19,7 +22,7 @@
             <div class="row ">
                 <div class="header-top-dropdown col-lg-6 col-6 d-flex flex-row bd-highlight">
                     <div class=" dropdown">
-                        <button class="dropdown-toggle ButtonLeftStyle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="dropdown-toggle ButtonLeftStyle dropdown-usd" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           USD
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -134,33 +137,48 @@
   <!--R I G H T-->
         <div class="col-lg-6 col-md-12 MenuRight">
           <div class="ContainerMenu row">
-          <div class="MenuItem col">
-            <a href="Home-page.html">HOME</a>
-          </div>
-
-          <div class="MenuItem col">
-              <a href="Shope-page.html">FURNITURE</a>
-            </div>
-
-            <div class="MenuItem col">
-                <a href="#">CHAIR</a>
-              </div>
-
-              <div class="MenuItem col">
-                  <a href="#">TABLE</a>
-                </div>
-
-                <div class="MenuItem col">
-                    <a href="#">SOFA</a>
+          
+              <a href="Home-page.html">
+                  <div class="MenuItem Menu-item-home col">
+                    HOME
                   </div>
-
+                  </a>
+      
+                  <a href="Shope-page.html">
                   <div class="MenuItem col">
-                      <a href="#">BADROOM</a>
+                      FURNITURE
                     </div>
-
+                  </a>
+      
+                  <a href="#"> 
                     <div class="MenuItem col">
-                        <a href="#">BLOG</a>
+                        CHAIR
                       </div>
+                    </a>
+      
+                    <a href="#">
+                      <div class="MenuItem col">
+                          TABLE
+                        </div>
+                      </a>
+      
+                      <a href="#">
+                        <div class="MenuItem col">
+                            SOFA
+                          </div>
+                        </a>
+      
+                        <a href="#">
+                          <div class="MenuItem col">
+                              BADROOM
+                            </div>
+                          </a>
+      
+                          <a href="#">
+                            <div class="MenuItem col">
+                                BLOG
+                              </div>
+                            </a>
 
         </div>
   </div>
@@ -972,40 +990,16 @@
     
  <!--Slider-logo-brand-->
  <div class="container">
-    <div class="row">
       <div class="Slider-logo-brand col-lg-12">
-        <div class="Slider-logo-brand-bottom-left">
-            <p><i class="fas fa-angle-left"></i></p>
-        </div>
-        
-        <div class="Slider-logo-brand-all">
-
-        </div>
-
-        <div class="Slider-logo-brand-all">
-
-          </div>
-
-          <div class="Slider-logo-brand-all">
-
-            </div>
-
-            <div class="Slider-logo-brand-all">
-
-              </div>
-
-              <div class="Slider-logo-brand-all">
-
-                </div>
-
-                <div class="Slider-logo-brand-all">
-
-                  </div>
-        <div class="Slider-logo-brand-bottom-right">
-            <p><i class="fas fa-angle-right"></i></p>
-          </div>
+        <div class="Slider-logo-brand-img"><img src="image/Logo-brand.png"></div>
+        <div class="Slider-logo-brand-img"><img src="image/Logo-brand.png"></div>
+        <div class="Slider-logo-brand-img"><img src="image/Logo-brand.png"></div>
+        <div class="Slider-logo-brand-img"><img src="image/Logo-brand.png"></div>
+        <div class="Slider-logo-brand-img"><img src="image/Logo-brand.png"></div>
+        <div class="Slider-logo-brand-img"><img src="image/Logo-brand.png"></div>
+        <div class="Slider-logo-brand-img"><img src="image/Logo-brand.png"></div>
+        <div class="Slider-logo-brand-img"><img src="image/Logo-brand.png"></div>
       </div>  
-    </div>
   </div>
 
   <!--L I N E S P A C I N G-->
@@ -1120,5 +1114,19 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <!--Script-slider-slick-->
+    
+    <script type="text/javascript">
+
+      $('.Slider-logo-brand').slick({
+        slidesToShow: 6,
+        focusOnSelect: true
+      });
+    
+      </script>
   </body>
 </html>
