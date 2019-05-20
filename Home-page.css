@@ -221,216 +221,162 @@ and (max-device-width: 480px) {
     }
 }
 
-/*---------------S L I D E R---------------*/
-.HotDeals{
+/*---------------Hot-deals--------------*/
+.Hot-deals-litle{
     width: 100%;
-    height: 500px;
-}
-
-.Title{
-    width: 100%;
-    height: 50px;
-    background-color: #2a2a2a;
-    display: flex;
-}
-
-.Title h3{
     color: white;
-    padding: 7px;
     padding-left: 25px;
-}
-
-.Title p{
-    color: white;
-    margin-left: 90px;
-    margin-top: 9%;
-}
-
-.Title p:hover{
-    cursor: pointer;
-    color: #d58e32;
-    transition: 0.45s;
-}
-
-.HourCountImage{
-    width: 100%;
-    height: 310px;
-    background-color: #f4f5f7;  
-    padding-top: 100px;
-}
-
-.AddToCard{
-    width: 160px;
-    height: 35px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     background-color: #2a2a2a;
-    margin: 0 auto;
-
-
 }
 
-.AddToCard h6{
-    color: white;
+.Hot-deals-content{
+    border: 1px solid;
+    border-color: #e2e2e2;
+}
+
+.Hot-deals-image-add-to-cart{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 4.5%;
+    background-color: #2a2a2a;
+    height: 35px;
     text-align: center;
-    padding: 5%;
+    opacity: 0;
+    padding-top: 5px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    
 }
 
-.HourCount{
-    width: 300px;
-    height: 70px;
+.Hot-deals-image:hover .Hot-deals-image-add-to-cart{
+    opacity: 1;
+}
+
+.Hot-deals-image-add-to-cart:hover{
+    background-color: #d58e32;
+    cursor: pointer;
+}
+
+.Hot-deals-image{
+    width: 100%;  
+}
+
+.Hot-deals-image img{
+    width: 100%;
+    height: 280px;
+    outline: none;
+    object-fit: cover;
+}
+
+.Hot-deals-hour-count{
     display: flex;
-    margin: 0 auto;
-    margin-top: 95px;
+    margin-top: -80px;
+    margin-left: 7%;
+    margin-bottom: 20px;
 }
 
-.HourCountAll{
+.Hot-deals-hour-count-all{
+    text-align: center;
+    color: white;
+    padding-top: 7px;
     width: 70px;
     height: 70px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    border-radius: 100%;
     background-color: #3e3e3e;
-    border-radius: 50px;
+}
+
+.slick-dotted.slick-slider{
+    padding-bottom: 0px !important;
+}
+
+.Hot-deals-hour-count-all h6{
+    margin-top: -7px;
+}
+
+.Hot-deals-product-name{
+    text-align: center;
+}
+
+.Hot-deals-product-name-star{
     margin: 0 auto;
+    width: 90%;
+    border-bottom: 1px solid;   
+    margin-bottom: 25px;
 }
 
-.HourCountAll h4 {
-    color: white;
+.Hot-deals-product-name-icon{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.Hot-deals-product-name-icon-all:hover{
+   border-color: #d58e32;
+   color: #d58e32;
+   cursor: pointer;
+}
+
+.Hot-deals-product-name-icon-all{
+    width: 55px;
+    height: 35px;
     text-align: center;
-    margin: 0;
-    margin-top: 6px;
-}
-
-.HourCountAll h6 {
-    color: white;
-    text-align: center;
-}
-
-.ProductNameAndAmountCopy{
-    width: 100%;
-    height: 140px;
     border: 1px solid;
-    border-color: #f4f5f7;
+    margin-right: 5px;
+    padding-top: 5px;
+
+}
+.Hot-deals-product-name-icon-price {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    
 }
 
-.ProductNameAndAmountCopy h5{
-    text-align: center;
+.Hot-deals-product-name-icon-price p{
     padding-top: 5px;
 }
 
-.ProductNameAndAmountCopyStar{
-    width: 300px;
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 1px solid;
-  
-}
-
-.ProductNameAndAmountCopyStarOrangeLine{
-    margin-left: 135px;
-    margin-top:-1px;
-    width: 30px;
-    height: 3px;
-    background-color: orange;
-    position: absolute;
-}
-
-.ProductNameAndAmountCopyPriceIcon{
-    margin: 0 auto;
-    width: 300px;
-    display: flex;
-    margin-top: 15px;
-}
-
-.Icon{
-    margin-right: 5px;
-    width: 35px;
+.Hot-deals-product-name-icon-price-sale{
+    margin-left: 10px;
     height: 35px;
-    border:1px solid;
-    padding: 5px;
-    padding-left: 8px;
-}
-
-.Price{
-    margin-left: 25px;
-    display: flex;  
-
-}
-
-.PriceOne{
-    padding-top: 8px;
-    padding-right: 5px;
-    color: #bdbdbd;
-}
-
-.PriceTwo{
-    width: 90px;
-    height: 35px;
-    background-color: #3e3e3e; 
-    color: white;
-}
-
-.Slider{
-    width: 100%;
-    height: 500px;
-}
-
-.SliderImageButton{
-    margin: 0 auto;
-    width: 135px;
-    height: 55px;
-    background-color: white;
-    border-radius: 4px;
-    text-align: center;
-    margin-top: 280px;
-    padding-top: 2%;
-}
-
-.Slider h1 {
-    text-align: center;
-
-}
-
-.SliderImage{
-    width: 100%;
-    height: 465px;
-    background-color: #cccccc;
-}
-
-.SliderButtonStyle{
-    width: 100%;
-    height: 35px;
+    color:white;
     background-color: #2a2a2a;
-    display: flex;
-    
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.SliderButtonStyle i{
-    color: white;
-    font-size: 20px;
-    
-}
-
-.SliderButtonStyleOne{
-    width: 50%;
-    text-align: center;
-    padding-top: 1%;
-}
-
-.SliderButtonStyleTwo{
-    width: 50%;
-    text-align: center;
-    padding-top: 1%;
-}
-
-.SliderButtonStyle:hover{
+.Hot-deals-product-name-icon-price-sale:hover{
     background-color: #d58e32;
-    transition: 0.45s;
+    cursor: pointer;
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px) {
-	.SliderImage{
-        margin-top: 30px;
-    }
+.slick-dots{
+    position: absolute !important;
+    bottom: 104.5% !important;
+    left: 35% !important;
 }
+
+.slick-dots li button:before{
+    font-size: 14px !important;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #d58e32 !important;
+}
+
+.slick-dots li button::before {
+    color: #e2e2e2 !important;
+    opacity: 1 !important;
+}
+
 /*---------------F O U R__O P T I O N---------------*/
 .HovenContainer{
     margin-top:30px;
@@ -485,7 +431,12 @@ and (max-device-width: 480px) {
     background-color: #d58e32;
     color:white;
     cursor: pointer;
-    transition: 0.45s;
+    transition: 0.25s;
+}
+
+.HivenImage:hover{
+    border-color: #d58e32;
+    transition: 0.15s;
 }
 
 @media only screen
@@ -499,7 +450,9 @@ and (max-device-width: 480px) {
         margin-top: 100px;
     }
 }
+
 /*---------------A D---------------*/
+
 .Ad{
     padding-top:30px;
 }
@@ -1090,24 +1043,22 @@ and (max-device-width: 480px) {
     margin-top:30px;
     height: 545px;
     width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.BlogTwo{
-    margin-top:30px;
-    height: 545px;
-    width: 100%;
-}
-
-.BlogThree{
-    margin-top:30px;
-    height: 545px;
-    width: 100%;
-}
-
-.BlogBackgroundColorGreen{
+.Blog-img{
     width: 100%;
     height:290px;
-    background-color: #969696;
+}
+
+.Blog-img img{
+    width: 100%;
+    height:290px;
+}
+
+.Blog-img .slick-dots{
+    margin: -100px !important;
 }
 
 .BlogTextAll{

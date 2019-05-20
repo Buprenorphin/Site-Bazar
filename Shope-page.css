@@ -765,7 +765,6 @@ and (max-device-width: 480px) {
 .New-products-one-background-image{
     width: 100%;
     height: 260px;
-   
 }
 
 .New-products-one-background-image img{
@@ -777,11 +776,10 @@ and (max-device-width: 480px) {
 }
 
 .New-products-one-background-image-hover{
-    position: absolute;
-    margin-left: 12px;
-    width: 80%;
-    display: flex;
-    margin-top: 200px;    
+    width: 84%;
+    margin-top: -30px;
+    margin-left: 8%;
+    display: flex; 
     opacity: 0;
     -webkit-transition: all .25s;
     -o-transition: all .25s;
@@ -799,11 +797,21 @@ and (max-device-width: 480px) {
 }
 
 .New-products-one-background-image-hover-cart{
-    width: 130px;
+    width: 140px;
     height: 35px;
     background-color: #2a2a2a;
-    margin-left: auto;
+    margin-left: 10px;
     padding-top: 7px;
+}
+
+.New-products-one-background-image-hover-quick:hover{
+    background-color: #d58e32;
+    color: white;
+}
+
+.New-products-one-background-image-hover-cart:hover{
+    background-color: #d58e32;
+    color: white;
 }
 
 .New-products-one-background-image:hover .New-products-one-background-image-hover{
@@ -819,7 +827,8 @@ and (max-device-width: 480px) {
 }
 
 .New-products-one-background-image-sale{
-    margin: 0 auto;
+    position: absolute;
+    margin-left: 37%;
     text-align: center;
     color: white;
     width: 45px;
