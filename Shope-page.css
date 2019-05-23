@@ -606,25 +606,27 @@ and (max-device-width: 480px) {
     border-color: #c2c2c2;
 }
 
-.Menu-review{
+.Menu-review {
     width: 100%;
-    display: flex;
 }
 
-.Menu-review-all{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    border-bottom: 1px solid;
-    border-right: 1px solid;
-    border-color: #c2c2c2;
+.Menu-review a{
+    color: #2a2a2a !important;
 }
 
-.Menu-review-all:hover{
-    border-bottom: none;
-    color: #d58e32;
-    cursor: pointer;
+.Menu-review a:hover{
+    color: #d58e32 !important;
 }
+
+.Menu-review .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #d58e32 !important;
+}
+
+.Menu-review .nav-tabs .nav-link {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
 
 .Review-text p{
     color:#858585;

@@ -221,7 +221,7 @@ and (max-device-width: 480px) {
     }
 }
 
-/*---------------Hot-deals--------------*/
+/*--------------- Hot deals --------------*/
 .Hot-deals-litle{
     width: 100%;
     color: white;
@@ -293,8 +293,12 @@ and (max-device-width: 480px) {
     background-color: #3e3e3e;
 }
 
-.slick-dotted.slick-slider{
+.Hot-deals-content .slick-dotted.slick-slider{
     padding-bottom: 0px !important;
+}
+
+.slick-dots {
+    width: 100px !important;
 }
 
 .Hot-deals-hour-count-all h6{
@@ -358,25 +362,93 @@ and (max-device-width: 480px) {
     cursor: pointer;
 }
 
-.slick-dots{
+.Hot-deals-content-slider .slick-dots{
     position: absolute !important;
     bottom: 104.5% !important;
-    left: 35% !important;
+    left: 70% !important;
 }
 
-.slick-dots li button:before{
+.Hot-deals-content-slider .slick-dots li button:before{
     font-size: 14px !important;
 }
 
-.slick-dots li.slick-active button:before{
+.Hot-deals-content-slider .slick-dots li.slick-active button:before{
     color: #d58e32 !important;
 }
 
-.slick-dots li button::before {
+.Hot-deals-content-slider .slick-dots li button::before {
     color: #e2e2e2 !important;
     opacity: 1 !important;
 }
 
+/*--------------- Slider ---------------*/
+.Slider{
+    width: 100%;
+    height: 509px;
+    background-color: #929292;
+}
+
+.Slider-image{
+    width: 500px;
+    height: 467px !important;
+    background-color: #cccccc;
+    
+}
+
+.Slider-image-text{
+    width: 100%;
+    height: 210px;
+    background-color: #666666;
+    margin-top: 80px;
+}
+
+.Slider-image-text h1{
+    padding-top: 9%;
+    color: white;
+    margin-left: 20%;
+}
+
+.Slider-image-text h6{
+    color: white;
+    margin-left: 30%;
+}
+
+.Slider-image-text-button{
+    width: 135px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:12px;
+    background-color: #ffffff;
+    margin:0 auto;
+    margin-top: 6%;
+    opacity: 0;
+}
+
+.Slider-image:hover .Slider-image-text-button{
+    opacity: 1;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+.Slider-image-text-button:hover{
+    background-color: #d58e32;
+    color: white;
+    cursor: pointer;
+}
+
+.Slider .slick-arrow {
+    top:91%;
+    margin: 25px !important;
+    width: 50% !important;
+    height: 42px !important;
+}
+
+
+.Slider .slick-arrow:hover{
+    background-color: #d58e32 !important;
+}
 /*---------------F O U R__O P T I O N---------------*/
 .HovenContainer{
     margin-top:30px;
@@ -451,7 +523,7 @@ and (max-device-width: 480px) {
     }
 }
 
-/*---------------A D---------------*/
+/*--------------- A d ---------------*/
 
 .Ad{
     padding-top:30px;
@@ -536,7 +608,7 @@ and (max-device-width: 480px) {
     }
 }
 /*---------------N E V - P R O D U C T S---------------*/
-.New-products-margin-one{
+/*.New-products-margin-one{
     margin-top: 20px;
 }
 
@@ -693,7 +765,7 @@ and (max-device-width: 480px) {
 	.New-products-one{
         margin-top: 30px;
     }
-}
+}*/
 /*Furniture-gallery*/
 .Furniture-gallery{
     margin-top: 30px;
@@ -702,7 +774,6 @@ and (max-device-width: 480px) {
 .Furniture-gallery-left-container{
     margin-top: 30px;
     width: 100%;
-    height: 449px;
     border: 1px solid;
     border-color: #cccccc;
 }
@@ -779,8 +850,8 @@ and (max-device-width: 480px) {
     margin-top: 100px;
     width: 250px;
     height: 110px;
-    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.100);
-    margin-left:288px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.500);
+    margin-left:640%;
     text-align: center;
 }
 
@@ -798,7 +869,7 @@ and (max-device-width: 480px) {
     border: 10px solid transparent;	
     border-right: 10px solid black; 
     border-bottom: 10px solid black;
-    margin-top: 20px;
+    margin-top: 19px;
     margin-left:230px;
 
 }
@@ -859,6 +930,13 @@ and (max-device-width: 480px) {
     margin-top: 20px;
 }
 
+.Furniture-gallery-right-container-text-button:hover{
+    color:white;
+    background-color: #d58e32;
+    cursor: pointer;
+    transition: 0.20s ;
+}
+
 .Furniture-gallery-right-container-text-button p{
     color:white;
     text-align: center;
@@ -870,101 +948,113 @@ and (max-device-width: 480px) {
     color: #85AC46;
 }
 
-.Furniture-gallery-left-backgroundmenu{
-    width: 100%;
-    height: 540px;
-}
-
 .Furniture-gallery-left-menu{
     width: 100%;
     height: 45px;
 }
 
-.nav-tabs a{
-    color:#2a2a2a ;
+.Furniture-gallery-left-container a{
+    color: #2a2a2a;
 }
 
-.nav-tabs .nav-item{
-    width: 25%;
-    text-align: center;
-    font-weight: bold;
-}
-
-.nav-tabs .nav-link:hover{
-    border-radius: 0rem;
-    border-top: 3px solid;
-    border-top-color: #d58e32;
-    border-bottom: 0px solid;
-    border-left:none;
+.Furniture-gallery-left-container .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
     color: #d58e32;
+    box-shadow: inset 0px 3px 0px 0px #d58e32;
+    border-top: none;
 }
 
+.Furniture-gallery-left-container .nav-tabs .nav-link{
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
 
-.nav-tabs .nav-link{
-    border-radius: 0rem;
-    border:none;
-    border-left:1px solid;
-    border-color: #cccccc;
 }
 
-.Furniture-gallery-left-container-slider{
-    margin-top:5%;
+.Furniture-gallery-left-container-icon-hover{
+    margin-top: -300px;
+    position: absolute;
+    opacity: 0;
+}
+
+.Furniture-gallery-left-container-image img{
     width: 100%;
-    height: 80px;
-    background-color: #2a2a2a;
+    height: 400px;
+    background-size: cover;
     
 }
 
-.Furniture-gallery-left-slider-bottom-left{
-    width: 30px;
-    height: 70px;
-    background-color: #2a2a2a;
-    color: white;
-    text-align: center;
-    padding-top:23px;
+
+.Furniture-gallery-left-container-image:hover .Furniture-gallery-left-container-icon-hover{
+    opacity: 1;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
 }
 
-.Furniture-gallery-left-slider-bottom-left:hover{
-    color: #d58e32;
-    cursor:pointer;
-    transition: 0.45s;
 
+.Furniture-gallery-left-slider{
+    width: 100%;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #cccccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
 }
 
-.Furniture-gallery-left-slider-image{
+.Furniture-gallery-left-slider .Furniture-gallery-left-slider-image{
     width: 70px;
     height: 70px;
-    background-color: #909090;
-    margin-left: 4px;
-    margin-right:4px
+    margin-left: 2.5px;
+    margin-left: 2.5px;
 }
 
-.Furniture-gallery-left-slider-bottom-right{
-    width: 30px;
+.Furniture-gallery-left-slider img {
+    width: 70px;
     height: 70px;
-    background-color: #2a2a2a;
-    margin-right: 10px;
-    color: white;
-    text-align: center;
-    padding-top:23px;
 }
 
-.Furniture-gallery-left-slider-bottom-right:hover{
-    color: #d58e32;
-    cursor:pointer;
-    transition: 0.45s;
+.Furniture-gallery-left-slider .slick-prev, .slick-next{
+    width: 30px !important;
+    height: 70px !important;
+    background-color: #2a2a2a !important;
+    margin-right: 30px !important;
+}
 
+.Furniture-gallery-left-slider .slick-prev, .slick-arrow{
+    width: 30px !important;
+    height: 70px !important;
+    background-color: #2a2a2a !important;
+    margin-left: 32px !important;
 }
 
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
 	.Furniture-gallery-left-container-aenean{
-        margin-left: 94px;
+        margin-left: 93px;
     }
 
     .Furniture-gallery-right-container-text{
         margin-top: 30px;
+    }
+
+    .Furniture-gallery-left-container-image img{
+        height: 100%;
+    }
+    
+    .Furniture-gallery-left-container-icon{
+        margin-top:110px;
+    }
+    
+    .Furniture-gallery-left-container-aenean{
+        margin-top:40px;
+    }
+
+    .Furniture-gallery-left-container a{
+        font-size: 9.5px;
     }
 }
 
@@ -1114,7 +1204,7 @@ and (max-device-width: 480px) {
     transition: 0.45s;
 }
 
-/*Slider-logo-brand*/
+/*------ Slider logo brand ------*/
 .Slider-logo-brand{
     margin: 0 auto;
     margin-top: 40px;
@@ -1136,34 +1226,34 @@ and (max-device-width: 480px) {
     
 }
 
-.slick-next:hover{
+.Slider-logo-brand .slick-next:hover{
     color: #d58e32 !important;
     
 }
 
-.slick-arrow:hover{
+.Slider-logo-brand .slick-arrow:hover{
     color: #d58e32 !important;
 }
 
-.Slider-logo-brand-img{
+.Slider-logo-brand .Slider-logo-brand-img{
     width: 140px !important;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.slick-next {
+.Slider-logo-brand .slick-next {
     background-color:#2a2a2a !important;
     height: 90px !important;
-    right: 0 !important;
+    right: -30px !important;
     z-index: 20;
 }
 
-.slick-prev {
-    left: 0 !important;
+.Slider-logo-brand .slick-prev {
+    left: -30px !important;
     z-index: 20;
 }
 
-.slick-arrow{
+.Slider-logo-brand .slick-arrow{
     background-color: #2a2a2a !important;
     height: 90px !important;
 }
@@ -1209,76 +1299,4 @@ and (max-device-width: 480px) {
     margin: 0px;
 }
 
-/*LineSpacing*/
-
-.LineSpacing{
-    margin-top: 40px;
-    border-bottom:2px solid;
-    border-color: #cccccc;
-    display: flex;
-}
-
-.LineSpacingOrange{
-    margin-top: -2px;
-    width: 40px;
-    height: 2px;
-    background-color: #d58e32;
-}
-
-.LineSpacing h6{
-    color: #d58e32;
-}
-
-.LineSpacingOrangeItem p{
-    padding-left: 20px;
-    margin-top: 50px; 
-    font-size: 10px;
-}
-
-.LineSpacingOrangeItem i{
-    padding-right: 2px;
-    color: #cccccc;
-}
-
-.LineSpacingOrangeItem p :hover{
-    color: #d58e32;
-}
-
-.LineSpacingNewFurnitureMenu{
-    position: absolute;
-    margin-left: 36%;
-    display: flex;
-    height: 100%;
-}
-
-.LineSpacingNewFurnitureMenuItem{
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.LineSpacingNewFurnitureMenuItem h6{
-    color: #2a2a2a;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.LineSpacingNewFurnitureMenuItem :hover{
-    cursor: pointer;
-    padding-bottom: 8px;
-    border-bottom: 2px solid;
-    border-color: #d58e32;
-}
-
-.Furniture-gallery-left-slider{
-    width: 100%;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
-    border-color: #cccccc;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    display: flex;
-    
-}
 
