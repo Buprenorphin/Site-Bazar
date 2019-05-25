@@ -227,12 +227,16 @@ and (max-device-width: 480px) {
 /* Ad */
 .Ad-image{
   width: 100%;
-  background-color: #3f3f3f;
+  background-image: url(https://files.steinhafels.com/up/91327584-0d9e-4c3e-9416-880546decef9_Bedroom_1140_rev-08.2018.jpg);
+  background-size: cover;
+  background-position: center;
   padding-top:60px;
   padding-bottom: 60px;
   text-align: center;
   color: white;
 }
+
+
 
 .Ad-home-furniture{
   width: 100%;
@@ -245,12 +249,219 @@ and (max-device-width: 480px) {
   color: #2a2a2a;
   text-decoration: none;
 }
-
+/* All - furniture*/
 .All-furniture{
   margin-top: 30px;
+  padding-left: 0px;
   
 }
 
+.All-furniture-menu{
+  width: 100%;
+  border-bottom: 2px solid;
+  display:flex;
+  padding-bottom: 10px;
+}
+
+.All-furniture-menu .show > .btn-secondary.dropdown-toggle{
+  color: #b7b7b7;
+}
+
+.All-furniture-menu-sort-by{
+  display: flex;
+  margin: 0 auto;
+}
+
+.All-furniture-menu-sort-by .btn-secondary{
+  margin-left: 10px;
+  background-color: WHITE !important;
+  color: #b7b7b7;
+  border-color: #b7b7b7;
+  border-radius: 0px;
+}
+
+
+.All-furniture-menu-show{
+  display: flex;
+}
+
+.All-furniture-menu span{
+  margin-top:5px;
+}
+
+.All-furniture-menu h5{
+  margin-top:5px;
+}
+
+.All-furniture-menu-show .btn-secondary{
+  margin-left: 10px;
+  background-color: WHITE !important;
+  color: #b7b7b7;
+  border-color: #b7b7b7;
+  border-radius: 0px;
+}
+
+
+.All-furniture-menu-view-as-grid-or-list{
+  border:1px solid #b7b7b7;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 55px;
+}
+
+.All-furniture-menu-view-as-grid-or-list a{
+  color: #2a2a2a;
+}
+
+.All-furniture-menu-view-as-grid-or-list a:hover{
+  color: #d58e32;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  .All-furniture-menu{
+    display: block;
+  }
+ 
+  .Right-bar{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .All-furniture-list{
+    margin-left: 15px;
+
+  }
+
+  .All-furniture-menu-sort-by{
+    margin-bottom: 10px;
+  }
+
+  .All-furniture-menu-view-as-grid-or-list{
+    margin-top: -38px;
+    margin-left: 120px;
+    width: 60px;
+  }
+
+  
+}
+/* All-furniture-products */
+
+.All-furniture-products{
+  margin-top: 30px;
+  width: 100%;
+  border-bottom: 2px solid #d7d7d7;
+  display: flex;
+}
+
+.All-furniture-products-image{
+  width: 460px;
+  height: 260px;
+  background-image: url(https://www.ikea.com/ms/media/cho_room/20171/storage/20171_cost02a/20171_cost02a_01_PH137702.jpg);
+  margin-bottom: 30px;
+  background-position: center;
+  background-size: cover;
+}
+
+.All-furniture-products-image-sale{
+  width: 40px;
+  height: 20px;
+  background-color: #2a2a2a;
+  border-radius:  0 0 50% 50%;
+  margin: 0 auto;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+
+}
+
+.All-furniture-products-text{
+  margin-left: 20px;
+}
+
+.All-furniture-products-text a{
+  color: #2a2a2a;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.All-furniture-products-text a:hover{
+  color: #d58e32;
+  transition: 0.25s;
+  
+}
+
+.All-furniture-products-text h5{
+  margin-top:10px;
+}
+
+.All-furniture-products-text p{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid #d7d7d7;
+}
+
+.All-furniture-products-icon{
+  width: 30px;
+  height: 30px;
+  border:1px solid;
+  text-align: center;
+  padding-top: 2px;
+  margin-right: 10px;
+}
+
+.All-furniture-products-icon:hover{
+  color: #d58e32;
+  border-color: #d58e32;
+  cursor: pointer;
+}
+
+.All-furniture-products-icon-all{
+  margin-top: 30px;
+  display: flex;
+}
+
+.All-furniture-products-icon-button{
+  background-color: #2a2a2a;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+.All-furniture-products-icon-button:hover{
+  background-color: #d58e32;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+  .All-furniture-products{
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .All-furniture-products-image{
+    width: 100%;
+  }
+
+  .All-furniture-products-text{
+    margin-bottom:30px; 
+  }
+
+  .All-furniture-products-text{
+    margin-left: 0px;
+  }
+}
+
+/* Right-bar */
 .Right-bar{
   padding-right: 0px;
 }
@@ -295,14 +506,8 @@ width: 95%;
 
 .Right-bar-color-title{
   margin-top: 30px;
-  margin-bottom: 30px;
   width: 100%;
   border-bottom: 2px solid;
-}
-
-.Right-bar-color{
-  margin-top: 30px;
-
 }
 
 .Right-bar-color-title-red-black-yellow-blue-pink-green{
@@ -368,6 +573,7 @@ width: 95%;
 }
 
 .Right-bar-tag-title{
+  padding-right: 0px;
   margin-bottom: 30px;
   width: 100%;
   border-bottom: 2px solid;
@@ -403,6 +609,92 @@ width: 95%;
   border-bottom: 2px solid;
 }
 
+.Right-bar .btn-primary{
+  color: #2a2a2a;
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid;
+  border-radius: 0px;
+  text-align: start;
+  padding-left: 0px;
+  display:flex;
+}
+
+.Right-bar .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: rgb(255, 255, 255);
+  background-color: white;
+  border-color: white;
+}
+
+.Right-bar .btn-primary:hover{
+  color: #d58e32;
+  border-color: #d58e32;
+  cursor: pointer;
+}
+
+.Right-bar-featured{
+  margin-top: 45px;
+  width: 100%;
+  background-color: #2a2a2a;
+  color: white;
+  padding-top:10px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+}
+
+.Right-bar-featured-title-image{
+  width: 115px;
+  height: 140px;
+  background-color: #2a2a2a;
+  margin-bottom: 15px;
+  border:1px solid #cccccc;
+}
+
+.Right-bar-featured-title-image img{
+  width: 113px;
+  height: 138px;
+  background-size: cover;
+  background: center;
+}
+
+.Right-bar-featured-title{
+  margin-top: 30px;
+}
+
+.Right-bar-featured-title-all{
+  width: 100%;
+  display: flex;
+}
+
+.Right-bar-featured-title-text{
+  margin-left: 10px;
+}
+
+.Right-bar-featured-title-text h6{
+  margin-top: 10px;
+}
+
+.Right-bar-featured-title-text span:hover{
+  cursor:pointer;
+  color: #d58e32;
+  transition: 0.25s;
+}
+
+.Right-bar-featured-title-button{
+  background-color: #2a2a2a;
+  color:white;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+.Right-bar-featured-title-button:hover{
+  background-color: #d58e32;
+  cursor: pointer;
+  color: white;
+  transition: 0.25s;
+}
 /*------ Slider logo brand ------*/
 .Slider-logo-brand{
   padding-left: 15px;
