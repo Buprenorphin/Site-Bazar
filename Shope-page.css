@@ -250,6 +250,10 @@ and (max-device-width: 480px) {
     
 }
 
+#Furniture-active{
+    color: #d58e32;
+}
+
 .Home-furniture-bg-text-home a{
     color: #dedede;
     text-decoration: none; 
@@ -1098,4 +1102,24 @@ and (max-device-width: 480px) {
 	margin-top:20px;
 	background-size: 200px 25px;
     background-repeat: no-repeat;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+	#FooterTop{
+        padding-top: 15px;
+    }
+
+    .FooterTopText{
+        padding-top: 25px;
+    }
+    
+    .FooterLeft{
+        text-align: center;
+    }
+
+    .FooterRight{
+        text-align: center;
+    }
 }
