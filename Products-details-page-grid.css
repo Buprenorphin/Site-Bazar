@@ -109,7 +109,6 @@ header p{
 .BurgerMenu a {
   color:white !important;
 }
-
 /*---------------M E N U---------------*/
 .Category-and-search-all{
   padding: 0px;    
@@ -237,6 +236,8 @@ and (max-device-width: 480px) {
   color: white;
 }
 
+
+
 .Ad-home-furniture{
   width: 100%;
   background-color: #e2e2e2;
@@ -349,116 +350,175 @@ and (max-device-width: 480px) {
 }
 /* All-furniture-products */
 
-.All-furniture-products{
-  margin-top: 30px;
+.New-products-margin-one{
+  margin-top: 20px;
+}
+
+.New-products-one{
   width: 100%;
-  border-bottom: 2px solid #d7d7d7;
+  height: 400px;
+  border: 1px solid;
+  border-color: #cccccc;
+}
+
+.New-products{
   display: flex;
 }
 
-.All-furniture-products-image{
-  width: 460px;
+.New-products-one-background-image{
+  width: 100%;
   height: 260px;
-  background-image: url(https://www.ikea.com/ms/media/cho_room/20171/storage/20171_cost02a/20171_cost02a_01_PH137702.jpg);
-  margin-bottom: 30px;
-  background-position: center;
+  background-image:url(https://www.ikea.com/ms/media/cho_room/20171/storage/20171_cost02a/20171_cost02a_01_PH137702.jpg);
   background-size: cover;
+  background-position: center;
 }
 
-.All-furniture-products-image-sale{
-  width: 40px;
-  height: 20px;
-  background-color: #2a2a2a;
-  border-radius:  0 0 50% 50%;
-  margin: 0 auto;
-  color: white;
-  font-size: 13px;
-  text-align: center;
-
-}
-
-.All-furniture-products-text{
-  margin-left: 20px;
-}
-
-.All-furniture-products-text a{
-  color: #2a2a2a;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.All-furniture-products-text a:hover{
-  color: #d58e32;
-  transition: 0.25s;
-  
-}
-
-.All-furniture-products-text h5{
-  margin-top:10px;
-}
-
-.All-furniture-products-text p{
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-bottom: 2px solid #d7d7d7;
-}
-
-.All-furniture-products-icon{
-  width: 30px;
-  height: 30px;
-  border:1px solid;
-  text-align: center;
-  padding-top: 2px;
-  margin-right: 10px;
-}
-
-.All-furniture-products-icon:hover{
-  color: #d58e32;
-  border-color: #d58e32;
-  cursor: pointer;
-}
-
-.All-furniture-products-icon-all{
-  margin-top: 30px;
+.New-products-one-background-image-hover{
+  position: absolute;
+  margin-left: 12px;
+  width: 80%;
   display: flex;
-}
-
-.All-furniture-products-icon-button{
-  background-color: #2a2a2a;
+  margin-top: 225px;    
+  opacity: 0;
+  -webkit-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
   color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 3px;
+  text-align: center;
+  font-size: 14px;
 }
 
-.All-furniture-products-icon-button:hover{
+.New-products-one-background-image-hover-quick{
+  width: 85px;
+  height: 35px;
+  background-color: #2a2a2a;
+  padding-top: 7px;
+}
+
+.New-products-one-background-image-hover-cart{
+  width: 130px;
+  height: 35px;
+  background-color: #2a2a2a;
+  margin-left: auto;
+  padding-top: 7px;
+}
+
+.New-products-one-background-image:hover .New-products-one-background-image-hover{
+  opacity: 1;
+}
+
+.New-products-one-background-image-hover-cart:hover{
   background-color: #d58e32;
   cursor: pointer;
-  transition: 0.25s;
+}
+
+.New-products-one-background-image-hover-quick:hover{
+  background-color: #d58e32;
+  cursor: pointer;
+}
+
+.New-products-one-background-image-sale{
+  position: absolute;
+  margin-left: 35%;
+  text-align: center;
+  color: white;
+  width: 45px;
+  height: 25px;
+  background-color: #2a2a2a;
+  border-radius: 0 0 100%  100%;
+}
+
+.New-products-one-text h5{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+.New-products-one-text h5:hover{
+  color: #d58e32;
+  cursor: pointer;
+}
+
+.New-products-one-star{
+  margin: 0 auto;
+  width: 85%;
+  height: 35px;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+.New-products-one-star-line-orange{
+  width: 30px;
+  height: 3px;
+  background-color: #d58e32;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: 33%;
+}
+
+.New-products-one-icon-price{
+  margin: 0 auto;
+  width:  85%;
+  display: flex;
+}
+
+.New-products-one-icon{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  border:1px solid;
+}
+
+.New-products-one-icon:hover{
+  color: #d58e32;
+  border-color: #d58e32;
+}
+
+.New-products-one-icon p{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.New-products-one-price{
+  margin-top: 10px;
+  width: 75px;
+  height: 35px;
+  background-color: #2a2a2a;
+  margin-left: auto;
+}
+
+.New-products-one-price-strike{
+  color: #bdbdbd;
+  padding-top: 2px;
+  padding-right: 3px;
+}
+
+.New-products-one-price :hover{ 
+  background-color: #d58e32;
+  height: 35px;
+  cursor: pointer;
+}   
+
+.New-products-one-price h5{
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+}
+
+.New-products-margin-one{
+  margin-top: 30px;
 }
 
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
-
-  .All-furniture-products{
-    display: block;
-    margin-bottom: 30px;
-  }
-
-  .All-furniture-products-image{
-    width: 100%;
-  }
-
-  .All-furniture-products-text{
-    margin-bottom:30px; 
-  }
-
-  .All-furniture-products-text{
-    margin-left: 0px;
+.New-products-one{
+      margin-top: 30px;
   }
 }
+
 
 /* Right-bar */
 .Right-bar{
@@ -935,307 +995,4 @@ and (max-device-width: 480px) {
   .FooterRight{
       text-align: center;
   }
-}
-
-/*---------------Shop-products--------------*/
-.Shop-products{
-  background-color: white;
-  padding-top: 15px;  
-  border:1px solid;
-  border-color: #c2c2c2;
-}
-
-.Shop-products-big-image{
-  width: 100%;
-}
-
-.Shop-products-big-img img{
-  height: 520px;
-  width: 100%;
-  outline: none;
-  object-fit: cover;
-}
-
-.Shop-products-slider-image{
-  margin:0 auto;
-  text-align: center;
-  width: 89%;
-  height: 105px;
-}
-
-.product-img-style{
-  height: 105px !important;
-  outline: none;
-}
-
-.product-img-style img{
-  outline: none;
-  width: 100%;
-  height: 105px !important;
-  object-fit: cover;
-}
-
-.slick-next{
-  width: 30px !important;
-  height: 30px !important;
-  border:1px solid !important;
-  border-color: black !important;
-}
-
-.slick-next::before{
-  color: #000 !important;
-}
-
-.slick-arrow::before {
-  color: #000 !important;
-}
-
-.slick-arrow:hover::before{
-  color: #fff !important;
-}
-
-
-.slick-arrow{
-  width: 30px !important;
-  height: 30px !important;
-  border:1px solid !important;
-  border-color: black !important;
-  z-index: 1;
-}
-
-.slick-next:hover{
-  border: none !important;
-  background-color: #d58e32 !important;
-}
-
-.slick-arrow:hover{
-  border: none !important;
-  background-color: #d58e32 !important;
-}
-
-
-
-.Shop-products-products-details-all{
-  border-bottom: 1px solid;
-  border-color: #cccccc;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.Shop-products-products-details-name{
-  border-bottom: 1px solid;
-  border-color: #cccccc;
-  padding-bottom: 25px;
-}
-
-.Shop-products-products-details-name-bear{
-  width: 100%;
-}
-
-.Shop-products-products-details-price{
-  display: flex;
-  padding-right: 20px;
-  color: #b0b0b0;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid;
-  border-color: #cccccc;
-}
-
-.Shop-products-products-details-price-all{
-  background-color: #2a2a2a;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  margin-top: -10px;
-  color: white;
-  margin-left: 10px;
-}
-
-.Shop-products-products-details-price-all:hover{
-  background-color: #d58e32;
-  cursor: pointer;
-}
-
-.Shop-products-products-details-button-add-to-cart{
-  background-color: #2a2a2a;
-  color: white;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.Shop-products-products-details-button-add-to-cart:hover{
-  background-color: #d58e32;
-  cursor: pointer;
-}
-
-.Shop-products-products-details-button-icon{
-  width: 35px;
-  height: 35px;
-  border: 1px solid;
-  margin-left: 7px;  
-  text-align: center;
-  padding-top: 5px; 
-}
-
-.Shop-products-products-details-button-icon:hover{
-  border-color:#d58e32;
-  color: #d58e32;
-  cursor: pointer;
-}
-
-.Shop-products-products-details-button-add-to-cart-all{
-  display: flex;
-}
-
-.Shop-products-products-details-button-icon-quantity{
-  display: flex;
-  margin-top:30px;
-}
-
-.Shop-products-products-details-button-icon-quantity-all{
-  border:1px solid;
-  padding-left: 30px;
-  padding-right: 30px;
-  height: 35px;
-  padding-top: 5px;
-  margin-top: -10px;
-  margin-left: 30px;
-}
-
-.Shop-products-products-details-button-icon-quantity-plus-minus{
-  margin-top: -10px;
-  border:1px solid;
-  width: 35px;
-  height: 35px;
-  margin-left: 7px;
-  text-align: center;
-  padding-top: 5px;
-}
-
-.Shop-products-products-details-button-icon-quantity-plus-minus:hover{
-  border-color: #d58e32;
-  color: #d58e32;
-  cursor: pointer;
-}
-
-.Shop-products-products-details-categories h6{
-  padding-right: 20px;
-  padding-top: 2px;
-
-}
-
-.Shop-products-products-details-categories span{
-  color: #676767;
-
-}
-
-.Shop-products-products-details-quick-overview p{
-  color: #676767;
-}
-
-.Shop-products-products-details-categories-Availability{
-  display: flex;
-}
-
-.Shop-products-products-details-categories-Furniture{
-  display: flex;
-}
-
-.Shop-products-products-details-share{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: flex;
-}
-
-.Shop-products-products-details-share p{
-  color: #989898;
-}
-
-.Shop-products-products-details-share-icon{
-  height: 35px;
-  margin-right: 5px;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.Shop-products-products-details-share-icon{
-  border:1px solid;
-  
-}
-
-.Shop-products-products-details-share-facebook i{
-  color: #3b5998;
-}
-
-.Shop-products-products-details-share-google i{
-  color: #d62d20;
-}
-
-.Shop-products-products-details-share-tweet i{
-  color: #4099ff;
-}
-
-.Shop-products-products-details-share-pinterest i{
-  color: #c92228;
-}
-
-.Shop-products-products-details-share-linkedin i{
-  color: #0077b5;
-}
-
-.Shop-products-products-details-share-facebook:hover{
-  background-color: #3B5A97;
-  color: white;
-
-}
-
-.Shop-products-products-details-share-facebook:hover i{
-  color: white;
-}
-
-.Shop-products-products-details-share-google:hover{
-  background-color: #D62C1F;
-  color: white;
-}
-
-.Shop-products-products-details-share-google:hover i{
-  color: white;
-}
-
-.Shop-products-products-details-share-tweet:hover{
-  background-color: #4099FF;
-  color: white;
-}
-
-.Shop-products-products-details-share-tweet:hover i{
-  color: white;
-}
-
-.Shop-products-products-details-share-pinterest:hover{
-  background-color: #C92227;
-  color: white;
-}
-
-.Shop-products-products-details-share-pinterest:hover i{
-  color: white;
-}
-
-.Shop-products-products-details-share-linkedin:hover{
-  background-color: #0077B5;
-  color: white;
-}
-
-.Shop-products-products-details-share-linkedin:hover i{
-  color: white;
-}
-
-.Shop-products-products-details-share-icon:hover p{
-  color: white;
-}
-
-.Shop-products-products-details-share-icon:hover{
-  cursor: pointer;
 }

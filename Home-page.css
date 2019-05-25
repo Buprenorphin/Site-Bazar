@@ -109,6 +109,7 @@ header p{
 .BurgerMenu a {
     color:white !important;
 }
+
 /*---------------M E N U---------------*/
 .Category-and-search-all{
     padding: 0px;    
@@ -436,6 +437,7 @@ and (max-device-width: 480px) {
 }
 
 .Slider-image-text-button:hover{
+    opacity: 1;
     background-color: #d58e32;
     color: white;
     cursor: pointer;
@@ -1045,6 +1047,7 @@ and (max-device-width: 480px) {
 
     .Furniture-gallery-right-container-text{
         margin-top: 30px;
+        
     }
 
     .Furniture-gallery-left-container-image img{
@@ -1062,6 +1065,11 @@ and (max-device-width: 480px) {
     .Furniture-gallery-left-container a{
         font-size: 9.5px;
     }
+
+    .Furniture-gallery-right-container-text{
+        padding-left: 20px;
+    }
+    
 }
 
 
@@ -1212,19 +1220,18 @@ and (max-device-width: 480px) {
 }
 
 .BlogButton{
-    padding-top: 20px;
-    padding-left: 20%;
-}
-
-.BlogButton button{
+    text-align: center;
+    padding-top: 9px;
     height: 45px;
     width: 165px;
     background-color: #2a2a2a;
-    border:none;
+    
     color: white;
+    margin: 0 auto;
+   
 }
 
-.BlogButton button:hover{
+.BlogButton:hover{
     background-color: #d58e32;
     cursor: pointer;
     transition: 0.45s;

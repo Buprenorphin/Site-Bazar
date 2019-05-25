@@ -52,6 +52,7 @@ header p{
 
 .Header-bottom-my-chart{
     padding: 0px;
+    
 }
 
 .mobile{
@@ -109,6 +110,7 @@ header p{
 .BurgerMenu a {
     color:white !important;
 }
+
 /*---------------M E N U---------------*/
 .Category-and-search-all{
     padding: 0px;    
