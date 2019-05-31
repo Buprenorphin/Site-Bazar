@@ -109,6 +109,22 @@ header p{
 .BurgerMenu a {
   color:white !important;
 }
+
+.Menu-item-badroom{
+  background-color: #d58e32;
+  color: white;
+  box-shadow: inset 0px 5px 0px 0px rgba(0,0,0,0.75);
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 990px) {
+
+	.Header-bottom-my-chart {
+        margin-top: -280px ;
+    }
+    
+}
 /*---------------M E N U---------------*/
 .Category-and-search-all{
   padding: 0px;    
@@ -754,6 +770,27 @@ width: 95%;
   color: white;
   transition: 0.25s;
 }
+
+/*Load-more*/
+.Load-more{
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 13px;
+  box-shadow: 0px 5px 20px -9px rgba(0,0,0,0.75);
+  width: 50px;
+  height: 50px;
+  background-color: #eeeeee;
+}
+
+.Load-more:hover{
+  color:white;
+  background-color: #d58e32;
+  cursor: pointer;
+  transition: .25s;
+}
+
 /*------ Slider logo brand ------*/
 .Slider-logo-brand{
   padding-left: 15px;
@@ -814,6 +851,27 @@ width: 95%;
   height: 90px !important;
 }
 
+
+.slick-next{
+  width: 30px !important;
+  height: 30px !important;
+  border:1px solid !important;
+  border-color: black !important;
+}
+
+
+.slick-arrow:hover::before{
+  color: #fff !important;
+}
+
+
+.slick-arrow{
+  width: 30px !important;
+  height: 30px !important;
+  border:1px solid !important;
+  border-color: black !important;
+  z-index: 1;
+}
 /*---------------Newsletter---------------*/
 
 .News-letter-bg{

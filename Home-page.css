@@ -110,6 +110,18 @@ header p{
     color:white !important;
 }
 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 990px) {
+
+	.Header-bottom-my-chart {
+        margin-top: -280px ;
+    }
+    
+    
+}
+
+
 /*---------------M E N U---------------*/
 .Category-and-search-all{
     padding: 0px;    
@@ -220,7 +232,18 @@ and (max-device-width: 480px) {
         padding: 0px;
         padding-left: 15px;
     }
+    
+    .ContainerMenu{
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .MenuRight{
+        padding-left: 0px;
+        margin: 0 auto;
+    }
 }
+
 
 /*--------------- Hot deals --------------*/
 .Hot-deals-litle{
@@ -455,9 +478,6 @@ and (max-device-width: 480px) {
     background-color: #d58e32 !important;
 }
 /*---------------F O U R__O P T I O N---------------*/
-.HovenContainer{
-    margin-top:30px;
-}
 
 .Hoven{
     margin-top:40px;
@@ -1069,9 +1089,9 @@ and (max-device-width: 480px) {
     .Furniture-gallery-right-container-text{
         padding-left: 20px;
     }
-    
-}
 
+}
+    
 
 /*---------------F O O T E R---------------*/
 
@@ -1262,7 +1282,6 @@ and (max-device-width: 480px) {
 /*------ Slider logo brand ------*/
 .Slider-logo-brand{
     margin: 0 auto;
-    margin-top: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
     border-top:1px solid;
@@ -1366,7 +1385,7 @@ and (max-device-width: 480px) {
     padding-left: 0px;
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 55px;
+    margin-top: 30px;
     width: 100%;
     border-bottom: 3px solid #e2e2e2;
 }

@@ -111,6 +111,16 @@ header p{
     color:white !important;
 }
 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 990px) {
+
+	.Header-bottom-my-chart {
+        margin-top: -280px ;
+    }
+    
+}
+
 /*---------------M E N U---------------*/
 .Category-and-search-all{
     padding: 0px;    
@@ -232,7 +242,9 @@ and (max-device-width: 480px) {
 .Home-furniture-bg{
     width: 100%;
     height: 335px;
-    background-color: #7f7f7f;
+    background-image: url(https://images.wallpaperscraft.com/image/bedroom_wardrobe_style_wooden_39785_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .Home-furniture-bg-text{
@@ -600,6 +612,14 @@ and (max-device-width: 480px) {
 
     .Shop-products{
         margin-top: 0px;
+    }
+
+    .Shop-products .slick-slide img{
+        width: 100% !important;
+    }
+
+    .Shop-products-products-details{
+        margin-top:30px;
     }
 }
 /*---------------Review---------------*/
@@ -1032,10 +1052,18 @@ and (max-device-width: 480px) {
    }
 
    .News-letter-mail-box-button{
-       width: 100%;
+       width: 18%;
        margin: 0px;
+       margin-left: 260px;
+       margin-top: -70px;
        margin-bottom: 10px;
    }
+
+   .News-letter-mail-box{
+    width: 80%;
+    margin: 0px;
+    margin-bottom: 10px;
+}
 }
 
 /*---------------F O O T E R---------------*/
